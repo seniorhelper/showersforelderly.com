@@ -6,620 +6,1148 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Showers for elderly homeowners who want easier, steadier bathing. Compare roll in showers, low threshold showers, and senior shower designs for aging in place. Call 1-888-779-2284." />
   <link rel="canonical" href="https://showersforelderly.com/" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" />
   <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+  <meta property="og:title" content="Showers for Elderly | Senior Showers, Roll In Showers & Low Threshold Options" />
+  <meta property="og:description" content="Compare roll in showers, low threshold showers, and senior shower designs for aging in place. Expert guidance from Aging Safely Baths." />
+  <meta property="og:url" content="https://showersforelderly.com/" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
   <style>
-    :root{
-      --primary:#1f7ea8;
-      --primary2:#145474;
-      --accent:#0bb39b;
-      --dark:#0f2430;
-      --ink:#12212b;
-      --muted:#5f6f7b;
-      --bg:#f5f7fa;
+    :root {
+      --blue:#1a6e9a;
+      --blue2:#0f4e73;
+      --blue3:#e6f4fa;
+      --teal:#0aa89a;
+      --dark:#0b1e2b;
+      --ink:#1a2e3b;
+      --muted:#5a6b78;
+      --light:#f4f7fa;
       --white:#ffffff;
-      --border: rgba(18,33,43,0.10);
-      --shadow: 0 18px 46px rgba(18,33,43,0.14);
-      --shadow2: 0 10px 22px rgba(18,33,43,0.08);
-      --danger:#c0392b;
-      --good:#1ba97f;
+      --gold:#d4a843;
+      --border:rgba(11,30,43,0.09);
+      --shadow:0 20px 52px rgba(11,30,43,0.13);
+      --shadow2:0 8px 24px rgba(11,30,43,0.08);
+      --radius:18px;
+      --radius2:12px;
     }
 
-    *{box-sizing:border-box}
-    html{scroll-behavior:smooth}
-    body{
-      margin:0;
-      font-family:"Inter",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-      color:var(--ink);
-      background:var(--bg);
-      line-height:1.7;
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 16px; }
+    body {
+      font-family: 'DM Sans', system-ui, sans-serif;
+      color: var(--ink);
+      background: var(--white);
+      line-height: 1.72;
+      -webkit-font-smoothing: antialiased;
     }
 
-    a{color:var(--primary);text-decoration:none}
-    a:hover{text-decoration:underline}
+    a { color: var(--blue); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    img { display: block; max-width: 100%; }
 
-    .wrap{max-width:1160px;margin:0 auto;padding:0 1rem}
+    .wrap { max-width: 1180px; margin: 0 auto; padding: 0 1.25rem; }
 
-    /* Header */
-    .site-header{
-      position:sticky;top:0;z-index:1000;
-      background:rgba(255,255,255,0.96);
-      backdrop-filter: blur(10px);
-      border-bottom:1px solid rgba(18,33,43,0.06);
-    }
-    .header-inner{
-      max-width:1160px;margin:0 auto;
-      display:flex;align-items:center;justify-content:space-between;
-      padding:0.85rem 1rem;
-      gap:1rem;
-    }
-    .brand{
-      display:flex;align-items:center;gap:0.85rem;min-width:260px;
-    }
-    .brand img{
-      height:46px;width:auto;display:block;
-    }
-    .brand-text{
-      display:flex;flex-direction:column;line-height:1.15;
-    }
-    .brand-text .title{
-      font-weight:800;font-size:1.05rem;color:var(--dark);
-      letter-spacing:0.01em;
-    }
-    .brand-text .sub{
-      font-size:0.82rem;color:var(--muted);
+    /* ============================================================
+       HEADER
+    ============================================================ */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      background: var(--white);
+      border-bottom: 2px solid var(--blue3);
+      box-shadow: 0 2px 18px rgba(11,30,43,0.07);
     }
 
-    .header-nav{
-      display:flex;align-items:center;gap:0.9rem;
-      font-size:0.9rem;flex-wrap:wrap;justify-content:center;
-    }
-    .header-nav a{
-      color:var(--muted);
-      font-weight:600;
-      padding:0.35rem 0.5rem;
-      border-radius:10px;
-    }
-    .header-nav a:hover{
-      color:var(--primary);
-      background:rgba(31,126,168,0.08);
-      text-decoration:none;
+    .header-inner {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 90px;
+      gap: 1rem;
     }
 
-    .header-cta{
-      text-align:right;
-      min-width:240px;
+    /* Logo */
+    .brand a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      gap: 0;
     }
-    .header-cta .label{
-      font-size:0.82rem;color:var(--muted);font-weight:600;
-    }
-    .header-cta a{
-      color:var(--primary);
-      font-weight:900;
-      font-size:1.02rem;
-      letter-spacing:0.01em;
-    }
-
-    /* Hero */
-    .hero{
-      background: radial-gradient(circle at top left, #e0f5ff, #f5f7fa 45%, #ffffff 85%);
-      border-bottom:1px solid rgba(18,33,43,0.06);
-    }
-    .hero-inner{
-      max-width:1160px;margin:0 auto;
-      padding:2.7rem 1rem 2.9rem;
-      display:grid;
-      grid-template-columns:minmax(0,1.45fr) minmax(0,1.1fr);
-      gap:2rem;
-      align-items:center;
-    }
-    .chip{
-      display:inline-flex;align-items:center;gap:0.45rem;
-      padding:0.25rem 0.65rem;
-      border-radius:999px;
-      background:rgba(11,179,155,0.10);
-      color:var(--accent);
-      font-size:0.72rem;
-      font-weight:800;
-      text-transform:uppercase;
-      letter-spacing:0.05em;
-      margin-bottom:0.6rem;
-    }
-    .hero h1{
-      margin:0 0 0.75rem;
-      color:var(--dark);
-      font-size:2.25rem;
-      line-height:1.18;
-      font-weight:900;
-    }
-    .hero p{
-      margin:0 0 1rem;
-      color:var(--muted);
-      font-size:1.02rem;
-      max-width:44rem;
-    }
-    .hero-points{
-      display:grid;
-      grid-template-columns:repeat(2,minmax(0,1fr));
-      gap:0.65rem 1.2rem;
-      margin:1rem 0 1.25rem;
-      font-size:0.92rem;
-    }
-    .point{
-      display:flex;gap:0.55rem;align-items:flex-start;
-      color:var(--ink);
-    }
-    .point b{
-      color:var(--dark);
-    }
-    .check{
-      width:22px;height:22px;border-radius:999px;
-      background:rgba(31,126,168,0.12);
-      display:flex;align-items:center;justify-content:center;
-      flex:0 0 auto;
-      margin-top:0.08rem;
-      font-weight:900;
-      color:var(--primary);
-    }
-    .hero-ctas{
-      display:flex;gap:0.8rem;flex-wrap:wrap;align-items:center;
-      margin:0.6rem 0 0.9rem;
-    }
-    .btn-primary{
-      background: linear-gradient(135deg,var(--primary),var(--primary2));
-      color:#fff;
-      font-weight:800;
-      padding:0.78rem 1.25rem;
-      border-radius:999px;
-      border:none;
-      cursor:pointer;
-      font-size:0.92rem;
-      box-shadow:0 14px 28px rgba(31,126,168,0.34);
-      display:inline-flex;align-items:center;gap:0.45rem;
-      text-decoration:none;
-    }
-    .btn-primary:hover{
-      transform: translateY(-1px);
-      box-shadow:0 18px 34px rgba(31,126,168,0.42);
-      text-decoration:none;
-    }
-    .btn-secondary{
-      background:#fff;
-      color:var(--primary);
-      border:1px solid rgba(31,126,168,0.25);
-      border-radius:999px;
-      padding:0.75rem 1.15rem;
-      font-size:0.9rem;
-      font-weight:800;
-      cursor:pointer;
-      display:inline-flex;align-items:center;gap:0.45rem;
-      text-decoration:none;
-    }
-    .btn-secondary:hover{
-      background:rgba(230,243,250,0.9);
-      text-decoration:none;
-    }
-    .hero-note{
-      font-size:0.86rem;color:var(--muted);
-      margin-top:0.4rem;
-    }
-    .hero-media{
-      position:relative;
-    }
-    .hero-media img{
-      width:100%;
-      border-radius:18px;
-      box-shadow:0 18px 48px rgba(18,33,43,0.26);
-      display:block;
-    }
-    .media-card{
-      position:absolute;
-      bottom:7%;
-      left:6%;
-      right:6%;
-      background:#fff;
-      border-radius:14px;
-      padding:0.85rem 0.95rem;
-      box-shadow:0 18px 42px rgba(0,0,0,0.22);
-      border:1px solid rgba(18,33,43,0.06);
-    }
-    .media-card .t{
-      font-weight:900;color:var(--dark);font-size:0.92rem;margin-bottom:0.35rem;
-    }
-    .badges{
-      display:flex;flex-wrap:wrap;gap:0.35rem;
-      margin-bottom:0.35rem;
-    }
-    .badge{
-      font-size:0.72rem;
-      border:1px solid rgba(18,33,43,0.12);
-      color:var(--muted);
-      border-radius:999px;
-      padding:0.18rem 0.5rem;
-      background:#fff;
-      font-weight:700;
-    }
-    .badge.accent{
-      border-color:rgba(11,179,155,0.5);
-      color:var(--accent);
-      background:rgba(11,179,155,0.08);
-    }
-    .media-card .s{
-      font-size:0.78rem;color:var(--muted);
+    .brand img {
+      height: 200px;
+      width: auto;
+      display: block;
+      object-fit: contain;
     }
 
-    /* Main layout */
-    main{max-width:1160px;margin:0 auto;padding:2.25rem 1rem 3.2rem}
-    section{margin-bottom:2.6rem}
-    .section-title{
-      color:var(--dark);
-      font-size:1.55rem;
-      font-weight:900;
-      margin:0 0 0.55rem;
-      letter-spacing:0.01em;
+    /* Desktop nav */
+    .header-nav {
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+      flex: 1;
+      justify-content: center;
     }
-    .section-sub{
-      color:var(--muted);
-      margin:0 0 1.35rem;
-      max-width:52rem;
-      font-size:0.95rem;
+    .header-nav a {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--muted);
+      padding: 0.45rem 0.75rem;
+      border-radius: 8px;
+      white-space: nowrap;
+      transition: color 0.15s, background 0.15s;
     }
-
-    .grid-2{
-      display:grid;
-      grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);
-      gap:1.75rem;
-      align-items:start;
+    .header-nav a:hover {
+      color: var(--blue);
+      background: var(--blue3);
+      text-decoration: none;
     }
-    .grid-3{
-      display:grid;
-      grid-template-columns:repeat(3,minmax(0,1fr));
-      gap:1rem;
+    .header-nav .blog-link {
+      color: var(--teal);
+      border: 1px solid rgba(10,168,154,0.3);
     }
-
-    .card{
-      background:#fff;border-radius:16px;padding:1.2rem 1.25rem;
-      box-shadow:var(--shadow2);
-      border:1px solid rgba(18,33,43,0.05);
-    }
-    .card h3{
-      margin:0 0 0.55rem;
-      color:var(--dark);
-      font-weight:900;
-      font-size:1.05rem;
-    }
-    .card p{margin:0.65rem 0;color:var(--ink);font-size:0.94rem}
-    .card ul{margin:0.65rem 0 0;padding-left:1.15rem;font-size:0.94rem}
-    .card li{margin:0.4rem 0}
-
-    .img-card{
-      background:#fff;border-radius:16px;padding:0.65rem;
-      box-shadow:var(--shadow2);
-      border:1px solid rgba(18,33,43,0.05);
-    }
-    .img-card img{
-      width:100%;border-radius:12px;display:block;
-    }
-    .caption{
-      font-size:0.82rem;color:var(--muted);
-      padding:0.45rem 0.4rem 0.15rem;
+    .header-nav .blog-link:hover {
+      background: rgba(10,168,154,0.08);
+      color: var(--teal);
     }
 
-    .strip{
-      border-radius:18px;
-      background:linear-gradient(120deg,#e6f3fa,#f9fdfd);
-      border:1px solid rgba(31,126,168,0.14);
-      padding:1.25rem 1.35rem;
-      box-shadow:0 10px 22px rgba(18,33,43,0.06);
+    /* Header CTA */
+    .header-cta {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 0.15rem;
+      white-space: nowrap;
     }
-    .strip strong{color:var(--primary)}
-    .strip p{margin:0.55rem 0;color:var(--ink);font-size:0.95rem}
+    .header-cta .label {
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .header-cta a {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: var(--blue);
+      letter-spacing: -0.01em;
+    }
+    .header-cta a:hover { text-decoration: none; color: var(--blue2); }
 
-    .table-wrap{
-      overflow:auto;
-      border-radius:16px;
-      border:1px solid rgba(18,33,43,0.08);
-      background:#fff;
-      box-shadow:var(--shadow2);
+    /* Hamburger button */
+    .hamburger {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0.5rem;
+      margin-left: 0.5rem;
+      flex-direction: column;
+      gap: 5px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+      transition: background 0.15s;
     }
-    table{
-      width:100%;
-      border-collapse:collapse;
-      min-width:860px;
+    .hamburger:hover { background: var(--blue3); }
+    .hamburger span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: var(--dark);
+      border-radius: 2px;
+      transition: transform 0.25s, opacity 0.2s;
     }
-    th,td{
-      padding:0.85rem 0.85rem;
-      border-bottom:1px solid rgba(18,33,43,0.08);
-      text-align:left;
-      vertical-align:top;
-      font-size:0.9rem;
-    }
-    th{
-      background:rgba(31,126,168,0.08);
-      color:var(--dark);
-      font-weight:900;
-    }
-    tr:last-child td{border-bottom:none}
+    .hamburger[aria-expanded="true"] span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .hamburger[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
+    .hamburger[aria-expanded="true"] span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
-    /* Quote section */
-    .quote-section{
-      background: radial-gradient(circle at top right, #e0f9ff, #ffffff 50%, #eef3f8 100%);
-      border-radius:18px;
-      padding:1.7rem 1.55rem 1.45rem;
-      display:grid;
-      grid-template-columns:minmax(0,1.25fr) minmax(0,1.1fr);
-      gap:1.4rem;
-      align-items:start;
-      box-shadow:var(--shadow);
-      border:1px solid rgba(18,33,43,0.06);
+    /* Mobile drawer */
+    .mobile-nav {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(11,30,43,0.55);
+      z-index: 1000;
+      opacity: 0;
+      transition: opacity 0.25s;
     }
-    .quote-left h2{
-      margin:0 0 0.6rem;
-      color:var(--dark);
-      font-weight:900;
-      font-size:1.45rem;
+    .mobile-nav.open {
+      display: block;
+      opacity: 1;
     }
-    .quote-left p{
-      margin:0.55rem 0;
-      color:var(--muted);
-      font-size:0.93rem;
-      max-width:36rem;
+    .mobile-drawer {
+      position: absolute;
+      top: 0; right: 0;
+      width: min(88vw, 340px);
+      height: 100%;
+      background: var(--white);
+      box-shadow: -8px 0 32px rgba(11,30,43,0.18);
+      padding: 1.5rem 1.25rem;
+      overflow-y: auto;
+      transform: translateX(100%);
+      transition: transform 0.28s cubic-bezier(0.4,0,0.2,1);
     }
-    .mini-grid{
-      display:grid;
-      grid-template-columns:repeat(2,minmax(0,1fr));
-      gap:0.65rem;
-      margin-top:0.9rem;
+    .mobile-nav.open .mobile-drawer {
+      transform: translateX(0);
     }
-    .mini{
-      background:rgba(255,255,255,0.8);
-      border-radius:12px;
-      padding:0.65rem 0.75rem;
-      border:1px solid rgba(18,33,43,0.06);
-      font-size:0.84rem;
-      color:var(--ink);
+    .drawer-close {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 1.25rem;
     }
-    .mini b{color:var(--primary);display:block;margin-bottom:0.2rem}
+    .drawer-close button {
+      background: var(--blue3);
+      border: none;
+      border-radius: 8px;
+      padding: 0.5rem 0.75rem;
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--blue);
+      cursor: pointer;
+    }
+    .mobile-drawer nav a {
+      display: block;
+      padding: 0.85rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--ink);
+      text-decoration: none;
+    }
+    .mobile-drawer nav a:hover { color: var(--blue); }
+    .mobile-drawer .blog-section-heading {
+      font-size: 0.72rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--teal);
+      margin: 1.25rem 0 0.35rem;
+    }
+    .mobile-drawer nav a.blog-item {
+      color: var(--muted);
+      font-size: 0.9rem;
+      border-bottom: 1px solid var(--border);
+      padding: 0.65rem 0;
+    }
+    .mobile-cta-box {
+      margin-top: 1.5rem;
+      background: var(--blue3);
+      border-radius: var(--radius2);
+      padding: 1.1rem;
+      text-align: center;
+    }
+    .mobile-cta-box .label { font-size: 0.78rem; color: var(--muted); margin-bottom: 0.3rem; }
+    .mobile-cta-box a { font-size: 1.15rem; font-weight: 900; color: var(--blue); }
 
-    .form-box{
-      background:#fff;border-radius:16px;
-      padding:1rem 1rem 0.9rem;
-      box-shadow:0 14px 30px rgba(18,33,43,0.18);
-      border:1px solid rgba(18,33,43,0.06);
+    /* ============================================================
+       HERO
+    ============================================================ */
+    .hero {
+      background: linear-gradient(160deg, #d8eef8 0%, #eef6fb 35%, #ffffff 70%);
+      border-bottom: 1px solid var(--border);
+      overflow: hidden;
+      position: relative;
     }
-    .form-title{
-      font-weight:900;
-      color:var(--dark);
-      font-size:1.05rem;
-      margin-bottom:0.35rem;
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -80px; right: -100px;
+      width: 520px; height: 520px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(10,168,154,0.09) 0%, transparent 70%);
+      pointer-events: none;
     }
-    .form-sub{
-      font-size:0.82rem;color:var(--muted);margin-bottom:0.85rem;
+
+    .hero-inner {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 3.5rem 1.25rem 3.5rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: center;
     }
-    label{
-      display:block;
-      font-size:0.78rem;
-      font-weight:800;
-      color:var(--muted);
-      margin:0.55rem 0 0.25rem;
+
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(10,168,154,0.1);
+      color: var(--teal);
+      font-size: 0.72rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 0.3rem 0.8rem;
+      border-radius: 999px;
+      margin-bottom: 1rem;
     }
-    input,select,textarea{
-      width:100%;
-      padding:0.6rem 0.6rem;
-      border-radius:10px;
-      border:1px solid rgba(18,33,43,0.18);
-      font-size:0.9rem;
-      font-family:inherit;
-      outline:none;
-      background:#fff;
-      color:var(--ink);
+
+    .hero h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(2rem, 3.5vw, 2.75rem);
+      font-weight: 900;
+      line-height: 1.18;
+      color: var(--dark);
+      margin-bottom: 1rem;
     }
-    input:focus,select:focus,textarea:focus{
-      border-color:rgba(31,126,168,0.65);
-      box-shadow:0 0 0 2px rgba(31,126,168,0.18);
+    .hero h1 em {
+      font-style: normal;
+      color: var(--blue);
     }
-    textarea{min-height:84px;resize:vertical}
-    .form-row{
-      display:grid;
-      grid-template-columns:repeat(2,minmax(0,1fr));
-      gap:0.7rem;
+
+    .hero-lead {
+      color: var(--muted);
+      font-size: 1.02rem;
+      max-width: 46rem;
+      margin-bottom: 1.25rem;
     }
-    .full{grid-column:1 / -1}
-    .form-actions{
-      display:flex;gap:0.6rem;flex-wrap:wrap;align-items:center;
-      margin-top:0.85rem;
+
+    .hero-points {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.7rem 1.5rem;
+      margin: 1.25rem 0 1.5rem;
     }
-    .disclaimer{
-      font-size:0.72rem;color:var(--muted);
-      max-width:18rem;
+    .hpoint {
+      display: flex;
+      gap: 0.55rem;
+      align-items: flex-start;
+      font-size: 0.9rem;
+      color: var(--ink);
     }
-    #formStatus{
-      font-size:0.85rem;
-      margin-top:0.6rem;
-      min-height:1.1rem;
-      font-weight:800;
+    .hpoint-icon {
+      width: 22px; height: 22px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--blue), var(--teal));
+      color: #fff;
+      font-size: 0.65rem;
+      font-weight: 900;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 0.12rem;
     }
+
+    .hero-ctas {
+      display: flex;
+      gap: 0.85rem;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 0.85rem;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--blue), var(--blue2));
+      color: #fff;
+      font-weight: 800;
+      font-size: 0.93rem;
+      padding: 0.85rem 1.5rem;
+      border-radius: 999px;
+      border: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      box-shadow: 0 12px 32px rgba(26,110,154,0.35);
+      text-decoration: none;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 18px 40px rgba(26,110,154,0.42);
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .btn-outline {
+      background: var(--white);
+      color: var(--blue);
+      border: 2px solid rgba(26,110,154,0.3);
+      border-radius: 999px;
+      padding: 0.82rem 1.35rem;
+      font-size: 0.9rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      text-decoration: none;
+      transition: background 0.15s, border-color 0.15s;
+    }
+    .btn-outline:hover {
+      background: var(--blue3);
+      border-color: rgba(26,110,154,0.5);
+      text-decoration: none;
+    }
+
+    .hero-reassurance {
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    .hero-reassurance strong { color: var(--ink); }
+
+    /* Hero media */
+    .hero-media { position: relative; }
+    .hero-media img {
+      width: 100%;
+      border-radius: var(--radius);
+      box-shadow: 0 24px 60px rgba(11,30,43,0.24);
+    }
+    .hero-badge {
+      position: absolute;
+      bottom: 1.25rem;
+      left: 1rem;
+      right: 1rem;
+      background: rgba(255,255,255,0.96);
+      backdrop-filter: blur(8px);
+      border-radius: 14px;
+      padding: 0.85rem 1rem;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.18);
+      border: 1px solid rgba(11,30,43,0.06);
+    }
+    .hero-badge-title { font-weight: 800; font-size: 0.9rem; color: var(--dark); margin-bottom: 0.45rem; }
+    .hero-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      margin-bottom: 0.35rem;
+    }
+    .tag {
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 0.2rem 0.55rem;
+      border-radius: 999px;
+      background: var(--blue3);
+      color: var(--blue);
+      border: 1px solid rgba(26,110,154,0.18);
+    }
+    .tag.teal {
+      background: rgba(10,168,154,0.1);
+      color: var(--teal);
+      border-color: rgba(10,168,154,0.25);
+    }
+    .hero-badge-note { font-size: 0.77rem; color: var(--muted); }
+
+    /* ============================================================
+       TRUST BAR
+    ============================================================ */
+    .trust-bar {
+      background: var(--dark);
+      padding: 0.85rem 1.25rem;
+      overflow: hidden;
+    }
+    .trust-bar-inner {
+      max-width: 1180px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: rgba(255,255,255,0.8);
+      white-space: nowrap;
+    }
+    .trust-item .dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--teal);
+    }
+
+    /* ============================================================
+       SECTIONS / LAYOUT
+    ============================================================ */
+    main { max-width: 1180px; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
+
+    section { margin-bottom: 3.5rem; }
+
+    .section-label {
+      font-size: 0.7rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--teal);
+      margin-bottom: 0.5rem;
+    }
+    .section-title {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(1.45rem, 2.5vw, 1.9rem);
+      font-weight: 900;
+      color: var(--dark);
+      line-height: 1.22;
+      margin-bottom: 0.6rem;
+    }
+    .section-sub {
+      color: var(--muted);
+      font-size: 0.97rem;
+      max-width: 56rem;
+      margin-bottom: 1.75rem;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1.3fr 1fr;
+      gap: 1.75rem;
+      align-items: start;
+    }
+    .grid-2-even {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.75rem;
+      align-items: start;
+    }
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
+    }
+
+    /* Cards */
+    .card {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 1.5rem 1.5rem;
+      box-shadow: var(--shadow2);
+      border: 1px solid var(--border);
+    }
+    .card + .card { margin-top: 1.25rem; }
+    .card-number {
+      width: 36px; height: 36px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--blue), var(--teal));
+      color: #fff;
+      font-weight: 900;
+      font-size: 0.88rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 0.85rem;
+    }
+    .card h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--dark);
+      margin-bottom: 0.65rem;
+      line-height: 1.3;
+    }
+    .card p { color: var(--ink); font-size: 0.93rem; margin-bottom: 0.65rem; }
+    .card p:last-child { margin-bottom: 0; }
+    .card ul { padding-left: 1.15rem; font-size: 0.93rem; }
+    .card li { margin: 0.4rem 0; color: var(--ink); }
+
+    /* Accent card */
+    .card-accent {
+      background: linear-gradient(135deg, var(--blue3), #f0fbfa);
+      border-color: rgba(26,110,154,0.14);
+    }
+
+    /* Image card */
+    .img-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 0.65rem;
+      box-shadow: var(--shadow2);
+      border: 1px solid var(--border);
+    }
+    .img-card img {
+      width: 100%;
+      border-radius: calc(var(--radius) - 4px);
+    }
+    .img-caption {
+      font-size: 0.8rem;
+      color: var(--muted);
+      padding: 0.5rem 0.35rem 0.2rem;
+      font-style: italic;
+    }
+
+    /* Strip / callout */
+    .strip {
+      background: linear-gradient(120deg, #e6f3fa, #f2faf9);
+      border: 1px solid rgba(26,110,154,0.14);
+      border-left: 4px solid var(--blue);
+      border-radius: var(--radius);
+      padding: 1.35rem 1.5rem;
+    }
+    .strip strong { color: var(--blue2); font-size: 1rem; display: block; margin-bottom: 0.45rem; }
+    .strip p { color: var(--ink); font-size: 0.93rem; margin: 0; }
+
+    .strip-teal {
+      border-left-color: var(--teal);
+      background: linear-gradient(120deg, #f0faf9, #e6f3fa);
+    }
+    .strip-teal strong { color: var(--teal); }
+
+    /* Table */
+    .table-wrap {
+      overflow-x: auto;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      background: var(--white);
+      box-shadow: var(--shadow2);
+    }
+    table { width: 100%; border-collapse: collapse; min-width: 820px; }
+    th, td {
+      padding: 0.9rem 1rem;
+      border-bottom: 1px solid var(--border);
+      text-align: left;
+      font-size: 0.9rem;
+      vertical-align: top;
+    }
+    th {
+      background: linear-gradient(135deg, rgba(26,110,154,0.07), rgba(10,168,154,0.05));
+      color: var(--dark);
+      font-weight: 800;
+    }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: rgba(26,110,154,0.02); }
+
+    /* Quote form section */
+    .quote-section {
+      background: linear-gradient(145deg, #e6f3fa 0%, #f8fdfe 50%, #edf7f5 100%);
+      border-radius: calc(var(--radius) + 4px);
+      padding: 2.25rem 2rem;
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 2rem;
+      align-items: start;
+      box-shadow: var(--shadow);
+      border: 1px solid rgba(26,110,154,0.12);
+    }
+    .quote-left h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.3rem, 2.2vw, 1.7rem);
+      font-weight: 900;
+      color: var(--dark);
+      margin-bottom: 0.65rem;
+      line-height: 1.25;
+    }
+    .quote-left p { color: var(--muted); font-size: 0.93rem; margin-bottom: 0.75rem; }
+
+    .mini-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.65rem;
+      margin-top: 1rem;
+    }
+    .mini {
+      background: rgba(255,255,255,0.85);
+      border-radius: var(--radius2);
+      padding: 0.75rem 0.85rem;
+      border: 1px solid rgba(26,110,154,0.1);
+      font-size: 0.83rem;
+      color: var(--ink);
+    }
+    .mini b { display: block; color: var(--blue); font-size: 0.82rem; margin-bottom: 0.2rem; }
+
+    .form-box {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 1.5rem 1.35rem;
+      box-shadow: 0 16px 40px rgba(11,30,43,0.14);
+      border: 1px solid var(--border);
+    }
+    .form-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--dark);
+      margin-bottom: 0.25rem;
+    }
+    .form-sub { font-size: 0.8rem; color: var(--muted); margin-bottom: 0.9rem; }
+
+    label {
+      display: block;
+      font-size: 0.77rem;
+      font-weight: 700;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin: 0.65rem 0 0.28rem;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 0.65rem 0.75rem;
+      border-radius: 10px;
+      border: 1.5px solid rgba(11,30,43,0.15);
+      font-size: 0.92rem;
+      font-family: inherit;
+      outline: none;
+      background: var(--white);
+      color: var(--ink);
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    input:focus, select:focus, textarea:focus {
+      border-color: var(--blue);
+      box-shadow: 0 0 0 3px rgba(26,110,154,0.15);
+    }
+    textarea { min-height: 90px; resize: vertical; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0.7rem; }
+    .full { grid-column: 1 / -1; }
+    .form-actions { display: flex; gap: 0.65rem; flex-wrap: wrap; align-items: center; margin-top: 1rem; }
+    .disclaimer { font-size: 0.7rem; color: var(--muted); max-width: 17rem; }
+    #formStatus { font-size: 0.85rem; margin-top: 0.65rem; min-height: 1.1rem; font-weight: 700; }
 
     /* FAQ */
-    .faq-grid{
-      display:grid;
-      grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);
-      gap:1.5rem;
-      align-items:start;
+    .faq-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 1.5rem;
+      align-items: start;
     }
-    details{
-      background:#fff;
-      border-radius:14px;
-      padding:0.7rem 0.9rem;
-      margin-bottom:0.55rem;
-      box-shadow:0 8px 18px rgba(18,33,43,0.05);
-      border:1px solid rgba(18,33,43,0.06);
-      font-size:0.9rem;
+    details {
+      background: var(--white);
+      border-radius: var(--radius2);
+      margin-bottom: 0.6rem;
+      box-shadow: 0 4px 14px rgba(11,30,43,0.06);
+      border: 1px solid var(--border);
+      overflow: hidden;
+      transition: border-color 0.2s;
     }
-    summary{
-      cursor:pointer;
-      font-weight:900;
-      color:var(--dark);
-      list-style:none;
+    details[open] { border-color: rgba(26,110,154,0.28); }
+    summary {
+      cursor: pointer;
+      font-weight: 700;
+      color: var(--dark);
+      font-size: 0.93rem;
+      padding: 0.9rem 1.1rem;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      user-select: none;
     }
-    summary::-webkit-details-marker{display:none}
-    details[open]{
-      border-color:rgba(31,126,168,0.26);
+    summary::-webkit-details-marker { display: none; }
+    summary::after {
+      content: '+';
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: var(--blue);
+      flex-shrink: 0;
+      margin-left: 0.75rem;
+      transition: transform 0.2s;
     }
-    details[open] summary{color:var(--primary)}
-    details p{margin:0.55rem 0 0;color:var(--ink);font-size:0.9rem}
-
-    /* Footer */
-    footer{
-      background:#fff;
-      border-top:1px solid rgba(18,33,43,0.08);
-      margin-top:1.75rem;
-    }
-    .footer-inner{
-      max-width:1160px;margin:0 auto;
-      padding:1.6rem 1rem 1.15rem;
-      display:grid;
-      grid-template-columns:minmax(0,1.4fr) minmax(0,1.1fr);
-      gap:1.25rem;
-      font-size:0.85rem;
-    }
-    .footer-title{
-      font-weight:900;color:var(--dark);margin-bottom:0.35rem
-    }
-    .footer-muted{color:var(--muted);font-size:0.88rem}
-    .footer-nav{
-      display:grid;
-      grid-template-columns:repeat(3,minmax(0,1fr));
-      gap:0.35rem 1.1rem;
-      margin-top:0.35rem;
-    }
-    .footer-nav a{
-      color:var(--muted);
-      font-weight:700;
-      font-size:0.82rem;
-    }
-    .footer-nav a:hover{color:var(--primary);text-decoration:none}
-    .footer-bottom{
-      max-width:1160px;margin:0 auto;
-      padding:0.75rem 1rem 1.2rem;
-      display:flex;justify-content:space-between;gap:0.7rem;flex-wrap:wrap;
-      color:var(--muted);
-      font-size:0.78rem;
-    }
-    .footer-bottom a{color:var(--muted);font-weight:800}
-    .footer-bottom a:hover{color:var(--primary);text-decoration:none}
-
-    /* Accessibility helpers */
-    .sr-only{
-      position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;
+    details[open] summary::after { transform: rotate(45deg); }
+    details[open] summary { color: var(--blue); }
+    details p {
+      padding: 0 1.1rem 0.9rem;
+      color: var(--ink);
+      font-size: 0.9rem;
+      border-top: 1px solid var(--border);
+      padding-top: 0.75rem;
     }
 
-    /* Mobile */
-    @media (max-width: 920px){
-      .hero-inner{grid-template-columns:minmax(0,1fr)}
-      .quote-section{grid-template-columns:minmax(0,1fr)}
-      .grid-2{grid-template-columns:minmax(0,1fr)}
-      .faq-grid{grid-template-columns:minmax(0,1fr)}
-      .footer-inner{grid-template-columns:minmax(0,1fr)}
-      .header-inner{flex-wrap:wrap}
-      .header-cta{text-align:left;min-width:unset}
-      .header-nav{display:none}
-      .form-row{grid-template-columns:minmax(0,1fr)}
-      .mini-grid{grid-template-columns:minmax(0,1fr)}
+    /* ============================================================
+       BLOG SECTION
+    ============================================================ */
+    .blog-section {
+      background: linear-gradient(160deg, #f0fbfa 0%, #f8fdfe 60%, #fff 100%);
+      border-radius: calc(var(--radius) + 4px);
+      padding: 2.5rem 2rem;
+      border: 1px solid rgba(10,168,154,0.14);
+      box-shadow: 0 8px 28px rgba(10,168,154,0.08);
     }
-    @media (max-width: 560px){
-      .hero h1{font-size:1.85rem}
-      .hero-points{grid-template-columns:minmax(0,1fr)}
+    .blog-section .section-label { color: var(--teal); }
+    .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
+      margin-top: 1.5rem;
+    }
+    .blog-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      padding: 1.35rem 1.25rem;
+      box-shadow: var(--shadow2);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .blog-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 14px 38px rgba(11,30,43,0.13);
+    }
+    .blog-card-tag {
+      font-size: 0.68rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--teal);
+      margin-bottom: 0.5rem;
+    }
+    .blog-card h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--dark);
+      line-height: 1.35;
+      margin-bottom: 0.55rem;
+    }
+    .blog-card p {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 0.85rem;
+      line-height: 1.6;
+    }
+    .blog-card a.read-more {
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--blue);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+    .blog-card a.read-more:hover { text-decoration: underline; }
+
+    /* ============================================================
+       STATS / SOCIAL PROOF BAR
+    ============================================================ */
+    .stats-bar {
+      background: var(--white);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      padding: 1.5rem 1.75rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      gap: 1rem;
+      flex-wrap: wrap;
+      box-shadow: var(--shadow2);
+      margin-bottom: 3rem;
+    }
+    .stat-item { text-align: center; }
+    .stat-number {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      font-weight: 900;
+      color: var(--blue);
+      line-height: 1;
+      margin-bottom: 0.25rem;
+    }
+    .stat-label { font-size: 0.78rem; color: var(--muted); font-weight: 600; }
+    .stat-divider {
+      width: 1px;
+      height: 42px;
+      background: var(--border);
+    }
+
+    /* ============================================================
+       FOOTER
+    ============================================================ */
+    footer {
+      background: var(--dark);
+      color: rgba(255,255,255,0.75);
+    }
+    .footer-inner {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 1.75rem;
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr;
+      gap: 2rem;
+    }
+    .footer-logo-wrap {
+      display: inline-block;
+      background: #fff;
+      border-radius: 12px;
+      padding: 0.5rem 0.75rem;
+      margin-bottom: 0.85rem;
+    }
+    .footer-logo-wrap img { height: 60px; width: auto; }
+    .footer-title { font-weight: 800; color: #fff; margin-bottom: 0.5rem; font-size: 0.95rem; }
+    .footer-muted { color: rgba(255,255,255,0.55); font-size: 0.85rem; line-height: 1.6; }
+    .footer-contact { margin-top: 0.85rem; }
+    .footer-contact a { color: rgba(255,255,255,0.85); font-weight: 700; }
+    .footer-contact a:hover { color: var(--teal); }
+    .footer-nav-list { list-style: none; margin-top: 0.35rem; }
+    .footer-nav-list li { margin: 0.4rem 0; }
+    .footer-nav-list a { color: rgba(255,255,255,0.6); font-size: 0.85rem; font-weight: 500; }
+    .footer-nav-list a:hover { color: var(--teal); text-decoration: none; }
+    .footer-bottom {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 1rem 1.25rem 1.5rem;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      display: flex;
+      justify-content: space-between;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      font-size: 0.77rem;
+      color: rgba(255,255,255,0.4);
+    }
+    .footer-bottom a { color: rgba(255,255,255,0.45); font-weight: 600; }
+    .footer-bottom a:hover { color: var(--teal); text-decoration: none; }
+
+    /* ============================================================
+       UTILITY
+    ============================================================ */
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+    .mt-1 { margin-top: 1rem; }
+    .mt-1h { margin-top: 1.5rem; }
+    .mt-2 { margin-top: 2rem; }
+
+    /* ============================================================
+       RESPONSIVE
+    ============================================================ */
+    @media (max-width: 1024px) {
+      .blog-grid { grid-template-columns: 1fr 1fr; }
+      .grid-3 { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (max-width: 860px) {
+      .header-nav { display: none; }
+      .header-cta { display: none; }
+      .hamburger { display: flex; }
+      .brand img { height: 200px; }
+      .header-inner { height: auto; min-height: 90px; padding-top: 0.65rem; padding-bottom: 0.65rem; }
+
+      .hero-inner { grid-template-columns: 1fr; padding: 2.5rem 1.25rem; }
+      .hero-media { display: block; margin-top: 1.5rem; }
+      .hero-points { grid-template-columns: 1fr; }
+
+      .grid-2 { grid-template-columns: 1fr; }
+      .grid-2-even { grid-template-columns: 1fr; }
+      .grid-3 { grid-template-columns: 1fr; }
+      .blog-grid { grid-template-columns: 1fr; }
+      .faq-grid { grid-template-columns: 1fr; }
+      .quote-section { grid-template-columns: 1fr; padding: 1.75rem 1.25rem; }
+      .mini-grid { grid-template-columns: 1fr; }
+      .footer-inner { grid-template-columns: 1fr; }
+      .stats-bar { justify-content: center; }
+      .stat-divider { display: none; }
+      .form-row { grid-template-columns: 1fr; }
+
+      .blog-section { padding: 1.75rem 1.25rem; }
+    }
+
+    @media (max-width: 480px) {
+      .brand img { height: 200px; }
+      .header-inner { min-height: 80px; padding-top: 0.5rem; padding-bottom: 0.5rem; }
+      .trust-bar-inner { gap: 0.85rem; }
+      .trust-item { font-size: 0.75rem; }
     }
   </style>
 </head>
 
 <body>
-<header class="site-header">
+
+<!-- ============================================================
+     HEADER
+============================================================ -->
+<header class="site-header" id="home">
   <div class="header-inner">
+
     <div class="brand">
-      <img src="https://cdn.shopify.com/s/files/1/0658/2045/9202/files/denver-walk-in-tubs-logo.png?v=1765997125" alt="Aging Safely Baths Logo">
-      <div class="brand-text">
-        <div class="title">ShowersForElderly.com</div>
-        <div class="sub">Senior showers • Roll in showers • Low threshold designs</div>
-      </div>
+      <a href="/">
+        <img
+          src="https://www.agingsafelybaths.com/wp-content/uploads/2026/03/Aging-Safely-Baths-Logo-320.png"
+          alt="Aging Safely Baths & More — Showers for Elderly"
+          width="320"
+          height="200"
+        />
+      </a>
     </div>
 
     <nav class="header-nav" aria-label="Primary navigation">
       <a href="#options">Shower Options</a>
       <a href="#planning">Planning Guide</a>
       <a href="#sizes">Sizes & Layout</a>
-      <a href="#compare">Shower vs Tub</a>
+      <a href="#compare">Tub vs Shower</a>
       <a href="#quote">Free Quote</a>
       <a href="#faq">FAQ</a>
+      <a href="#blog" class="blog-link">📖 Blog</a>
     </nav>
 
     <div class="header-cta">
       <div class="label">Call Toll-Free</div>
       <a href="tel:18887792284">1-888-779-2284 (BATH)</a>
     </div>
+
+    <button
+      class="hamburger"
+      aria-label="Open navigation menu"
+      aria-expanded="false"
+      aria-controls="mobileNav"
+      onclick="toggleMenu(this)"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
   </div>
 </header>
 
-<section class="hero" id="home">
+<!-- Mobile Nav Drawer -->
+<div class="mobile-nav" id="mobileNav" role="dialog" aria-modal="true" aria-label="Site navigation" onclick="closeMenuOnOverlay(event)">
+  <div class="mobile-drawer">
+    <div class="drawer-close">
+      <button onclick="closeMenu()">✕ Close</button>
+    </div>
+    <nav>
+      <a href="#options" onclick="closeMenu()">Shower Options</a>
+      <a href="#planning" onclick="closeMenu()">Planning Guide</a>
+      <a href="#sizes" onclick="closeMenu()">Sizes &amp; Layout</a>
+      <a href="#compare" onclick="closeMenu()">Roll In vs Walk In Tub</a>
+      <a href="#quote" onclick="closeMenu()">Get a Free Quote</a>
+      <a href="#faq" onclick="closeMenu()">FAQ</a>
+      <div class="blog-section-heading">📖 Blog &amp; Resources</div>
+      <a href="https://www.agingsafelybaths.com/blog/" target="_blank" rel="noopener" class="blog-item" onclick="closeMenu()">All Blog Articles →</a>
+      <a href="https://www.agingsafelybaths.com/walk-in-tub-guide/" target="_blank" rel="noopener" class="blog-item" onclick="closeMenu()">Walk-In Tub Guide</a>
+      <a href="https://www.agingsafelybaths.com/roll-in-shower-guide/" target="_blank" rel="noopener" class="blog-item" onclick="closeMenu()">Roll-In Shower Guide</a>
+      <a href="https://www.agingsafelybaths.com/va-hisa-grant-for-bathroom-modifications/" target="_blank" rel="noopener" class="blog-item" onclick="closeMenu()">VA HISA Grant Guide</a>
+      <a href="https://www.agingsafelybaths.com/white-glove-installation/" target="_blank" rel="noopener" class="blog-item" onclick="closeMenu()">White Glove Installation</a>
+    </nav>
+    <div class="mobile-cta-box">
+      <div class="label">Call Toll-Free Anytime</div>
+      <a href="tel:18887792284">1-888-779-2284 (BATH)</a>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     HERO
+============================================================ -->
+<section class="hero">
   <div class="hero-inner">
     <div>
-      <div class="chip">Designed for aging in place • No pushy sales</div>
-      <h1>Showers for Elderly Adults Who Want Easier, Steadier Bathing at Home</h1>
-      <p>
+      <div class="hero-eyebrow">✦ Designed for aging in place &nbsp;·&nbsp; No pushy sales</div>
+      <h1>
+        <em>Showers for Elderly Adults</em> Who Want Easier, Steadier Bathing at Home
+      </h1>
+      <p class="hero-lead">
         If stepping over a tub wall feels uncertain, or if balance and joint comfort are not what they used to be,
         a better shower setup can make daily routines feel simpler. This page is built to help you understand
         <strong>showers for elderly homeowners</strong> in plain language — including <strong>roll in showers</strong>,
         <strong>low threshold showers</strong>, and practical design choices that support mobility without turning your bathroom into a clinic.
       </p>
-      <p>
+      <p class="hero-lead">
         Whether you are planning ahead for the next five years, helping a parent who wants to stay independent,
-        or working through a new limitation after surgery, you deserve clear options. You will find realistic guidance,
-        a straightforward planning checklist, and a fast way to request a quote.
+        or working through a new limitation after surgery, you deserve clear options. Find realistic guidance,
+        a straightforward planning checklist, and a fast way to request a quote below.
       </p>
 
       <div class="hero-points">
-        <div class="point"><div class="check">✓</div><div><b>Roll in shower designs</b> that allow smooth entry for wheelchairs, walkers, or caregiver support.</div></div>
-        <div class="point"><div class="check">✓</div><div><b>Low threshold showers</b> for seniors who want an easier step without a full barrier free build.</div></div>
-        <div class="point"><div class="check">✓</div><div><b>Seat + grab bar planning</b> so the shower works for real bodies, real routines, and real bathrooms.</div></div>
-        <div class="point"><div class="check">✓</div><div><b>Budget clarity</b> and decision guidance without “today only” pressure tactics.</div></div>
+        <div class="hpoint">
+          <div class="hpoint-icon">✓</div>
+          <div><strong>Roll in shower designs</strong> for smooth entry — wheelchairs, walkers, or caregiver support.</div>
+        </div>
+        <div class="hpoint">
+          <div class="hpoint-icon">✓</div>
+          <div><strong>Low threshold showers</strong> for an easier step without a full barrier-free build.</div>
+        </div>
+        <div class="hpoint">
+          <div class="hpoint-icon">✓</div>
+          <div><strong>Seat + grab bar planning</strong> designed for real bodies and real routines.</div>
+        </div>
+        <div class="hpoint">
+          <div class="hpoint-icon">✓</div>
+          <div><strong>Budget clarity</strong> and honest guidance — no "today only" pressure tactics.</div>
+        </div>
       </div>
 
       <div class="hero-ctas">
-        <a class="btn-primary" href="#quote">Get My Free Shower Consultation <span aria-hidden="true">→</span></a>
-        <a class="btn-secondary" href="#planning">Read the Planning Guide</a>
+        <a class="btn-primary" href="#quote">Get My Free Shower Consultation →</a>
+        <a class="btn-outline" href="#planning">Read the Planning Guide</a>
       </div>
 
-      <div class="hero-note">
+      <p class="hero-reassurance">
         Prefer talking it through? Call <strong>1-888-779-2284 (BATH)</strong>. We will help you compare options and choose what fits your space.
-      </div>
+      </p>
     </div>
 
     <div class="hero-media">
-      <img src="https://www.agingsafelybaths.com/wp-content/uploads/2023/04/wheelchair-accessible-showers-image-scaled.jpg" alt="Wheelchair accessible roll in shower designed for seniors with seat and grab bars">
-      <div class="media-card">
-        <div class="t">Popular senior shower setup</div>
-        <div class="badges">
-          <span class="badge accent">Barrier free entry</span>
-          <span class="badge">Seating options</span>
-          <span class="badge">Grab bar backing</span>
-          <span class="badge">Easy-clean walls</span>
+      <img
+        src="https://www.agingsafelybaths.com/wp-content/uploads/2023/04/wheelchair-accessible-showers-image-scaled.jpg"
+        alt="Wheelchair accessible roll in shower designed for seniors with seat and grab bars"
+        loading="lazy"
+      />
+      <div class="hero-badge">
+        <div class="hero-badge-title">Popular senior shower setup</div>
+        <div class="hero-tags">
+          <span class="tag teal">Barrier free entry</span>
+          <span class="tag">Seating options</span>
+          <span class="tag">Grab bar backing</span>
+          <span class="tag">Easy-clean walls</span>
         </div>
-        <div class="s">
-          Built for everyday comfort, steadier movement, and simpler maintenance — with style options that still feel modern.
-        </div>
+        <div class="hero-badge-note">Built for everyday comfort, steadier movement, and simpler maintenance — with style options that still feel modern.</div>
       </div>
     </div>
+
   </div>
 </section>
 
+<!-- ============================================================
+     TRUST BAR
+============================================================ -->
+<div class="trust-bar" aria-label="Trust signals">
+  <div class="trust-bar-inner">
+    <div class="trust-item"><div class="dot"></div> Nationwide Service Available</div>
+    <div class="trust-item"><div class="dot"></div> Worry-Free One-Day Installation</div>
+    <div class="trust-item"><div class="dot"></div> DIY Drop-Ship Option</div>
+    <div class="trust-item"><div class="dot"></div> Factory Certified Installers</div>
+    <div class="trust-item"><div class="dot"></div> Walk-In Tub Leak Protection</div>
+    <div class="trust-item"><div class="dot"></div> VA HISA Grant Accepted</div>
+  </div>
+</div>
+
 <main>
 
+  <!-- ============================================================
+       STATS BAR
+  ============================================================ -->
+  <div class="stats-bar" aria-label="At a glance statistics">
+    <div class="stat-item">
+      <div class="stat-number">1-Day</div>
+      <div class="stat-label">Typical Installation</div>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <div class="stat-number">50+</div>
+      <div class="stat-label">States Served Nationwide</div>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <div class="stat-number">3</div>
+      <div class="stat-label">Shower Entry Styles</div>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <div class="stat-number">$0</div>
+      <div class="stat-label">Cost for Consultation</div>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <div class="stat-number">25+</div>
+      <div class="stat-label">Years Industry Experience</div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       SHOWER OPTIONS
+  ============================================================ -->
   <section id="options">
+    <div class="section-label">Explore Your Options</div>
     <h2 class="section-title">Shower Options That Work Well for Elderly Adults and Seniors</h2>
     <p class="section-sub">
-      When people search “showers for elderly” they usually mean one thing: a shower that is easier to enter, easier to use,
+      When people search "showers for elderly" they usually mean one thing: a shower that is easier to enter, easier to use,
       and easier to maintain, especially as mobility changes over time. The best solution depends on how you move today,
       how you expect to move in a year, and how much space your bathroom gives you to work with.
     </p>
@@ -627,7 +1155,8 @@
     <div class="grid-2">
       <div>
         <div class="card">
-          <h3>1) Roll In Showers for Seniors (Barrier Free or Near-Flush Entry)</h3>
+          <div class="card-number">1</div>
+          <h3>Roll In Showers for Seniors — Barrier Free or Near-Flush Entry</h3>
           <p>
             A roll in shower is designed to reduce or remove the step at the shower entrance. That matters because the
             entry is where many people feel the most uncertainty. A true barrier free shower can be built to align with the
@@ -644,8 +1173,9 @@
           </ul>
         </div>
 
-        <div class="card" style="margin-top:1rem;">
-          <h3>2) Low Threshold Showers (Easier Step, Traditional Look)</h3>
+        <div class="card">
+          <div class="card-number">2</div>
+          <h3>Low Threshold Showers — Easier Step, Traditional Look</h3>
           <p>
             A low threshold shower keeps the familiar feel of a standard shower while reducing the step height. Many seniors prefer this style
             because it looks like a normal shower, while still offering a noticeably easier entry than a tub or tall curb.
@@ -660,35 +1190,87 @@
             <li><strong>Comfort benefit:</strong> feels familiar, reduces hesitation at the entry.</li>
           </ul>
         </div>
+
+        <div class="card card-accent">
+          <div class="card-number">3</div>
+          <h3>Curbless &amp; Zero-Entry Walk-In Showers</h3>
+          <p>
+            For maximum accessibility and a truly spa-like feel, a fully curbless walk-in shower eliminates every barrier at entry level. Water management
+            is handled by strategically positioned drains and a precision-sloped floor, leaving a seamless transition from bathroom tile to shower surface.
+          </p>
+          <p>
+            These are a premium choice for homeowners who want a design that is equally beautiful and functional — and that will accommodate any
+            mobility need without future renovation.
+          </p>
+          <ul>
+            <li><strong>Best for:</strong> full aging-in-place future-proofing, wheelchair transfer, modern design goals.</li>
+            <li><strong>Key feature:</strong> linear or perimeter drains, level floor throughout.</li>
+          </ul>
+        </div>
       </div>
 
       <div>
         <div class="img-card">
-          <img src="https://cdn.shopify.com/s/files/1/0606/5809/0036/files/trench_style_drain_roll_in_shower_image.jpg?v=1666883299" alt="Roll in shower with trench drain for seniors and elderly">
-          <div class="caption">Trench drain roll in shower layout that supports smoother entry and simpler water management.</div>
+          <img
+            src="https://cdn.shopify.com/s/files/1/0606/5809/0036/files/trench_style_drain_roll_in_shower_image.jpg?v=1666883299"
+            alt="Roll in shower with trench drain for seniors and elderly"
+            loading="lazy"
+          />
+          <div class="img-caption">Trench drain roll in shower layout that supports smoother entry and simpler water management.</div>
         </div>
 
-        <div class="strip" style="margin-top:1rem;">
-          <strong>Quick decision tip:</strong>
+        <div class="strip mt-1h">
+          <strong>Quick Decision Tip</strong>
           <p>
             If you are selecting a shower for an elderly parent and you are unsure about future mobility, lean toward a layout that gives more flexibility.
             A roll in shower footprint with thoughtful seating can serve many different routines over time, even if mobility changes.
+            The entry style you choose today shapes whether the shower continues to feel safe years from now.
+          </p>
+        </div>
+
+        <div class="strip strip-teal mt-1">
+          <strong>Wondering About Installation?</strong>
+          <p>
+            Our <a href="https://www.agingsafelybaths.com/white-glove-installation/" target="_blank" rel="noopener"><strong>White Glove Installation service</strong></a>
+            handles the entire process in a single day, with factory certified professionals.
+            We also offer DIY drop-ship for homeowners with a trusted contractor already in place.
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <div class="img-card">
+          <img src="https://cdn.shopify.com/s/files/1/0606/5809/0036/files/trench_style_drain_roll_in_shower_image.jpg?v=1666883299" alt="Roll in shower with trench drain for seniors and elderly" loading="lazy" />
+          <div class="img-caption">Trench drain roll in shower layout that supports smoother entry and simpler water management.</div>
+        </div>
+
+        <div class="strip mt-1h">
+          <strong>Quick Decision Tip</strong>
+          <p>
+            If you are selecting a shower for an elderly parent and you are unsure about future mobility, lean toward a layout that gives more flexibility.
+            A roll in shower footprint with thoughtful seating can serve many different routines over time, even if mobility changes.
+            The entry style you choose today shapes whether the shower continues to feel safe years from now.
           </p>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- ============================================================
+       PLANNING GUIDE
+  ============================================================ -->
   <section id="planning">
-    <h2 class="section-title">Planning Guide: How to Choose the Right Shower for Elderly Needs</h2>
+    <div class="section-label">Planning Guide</div>
+    <h2 class="section-title">How to Choose the Right Shower for Elderly Needs</h2>
     <p class="section-sub">
-      A successful senior shower design is not just about buying a “nice shower kit.” It comes down to fit, layout, support points,
+      A successful senior shower design is not just about buying a "nice shower kit." It comes down to fit, layout, support points,
       and how the person actually showers. This guide walks you through the decisions that matter most so you can choose confidently.
     </p>
 
     <div class="grid-3">
       <div class="card">
-        <h3>Step 1: Clarify mobility today (and likely mobility later)</h3>
+        <div class="card-number">1</div>
+        <h3>Clarify Mobility — Today and Later</h3>
         <p>
           Start with reality. Does the person use a cane, walker, or wheelchair? Do they hold onto walls for stability?
           Do they need to sit to shower, or do they tire quickly while standing?
@@ -704,7 +1286,8 @@
       </div>
 
       <div class="card">
-        <h3>Step 2: Choose the right pan style and drain location</h3>
+        <div class="card-number">2</div>
+        <h3>Choose the Right Pan Style &amp; Drain Location</h3>
         <p>
           Shower pans matter more than most people expect. The pan dictates the entry feel, the traction, and the water path.
           Drain location affects where water gathers and where people prefer to stand or sit.
@@ -717,9 +1300,10 @@
       </div>
 
       <div class="card">
-        <h3>Step 3: Plan seating and support as part of the design</h3>
+        <div class="card-number">3</div>
+        <h3>Plan Seating &amp; Support as Part of the Design</h3>
         <p>
-          Seats and grab bars should be planned with the person’s routine in mind. A seat that is too low, too far from controls,
+          Seats and grab bars should be planned with the person's routine in mind. A seat that is too low, too far from controls,
           or positioned poorly can become frustrating.
         </p>
         <ul>
@@ -730,17 +1314,22 @@
       </div>
     </div>
 
-    <div class="strip" style="margin-top:1.1rem;">
-      <strong>Plain-language checklist:</strong>
+    <div class="strip mt-1h">
+      <strong>Plain-Language Checklist</strong>
       <p>
         If you want showers for elderly adults that truly feel better day to day, prioritize these fundamentals: easier entry, reliable footing,
         predictable water flow, reachable controls, seating that matches energy levels, and support points that feel natural to grab.
-        When those fundamentals are right, the shower can still look modern and stylish.
+        When those fundamentals are right, the shower can still look modern and stylish. A good senior shower is not a compromise —
+        it is a smarter design that happens to serve everyone in the home.
       </p>
     </div>
   </section>
 
+  <!-- ============================================================
+       SIZES & LAYOUT
+  ============================================================ -->
   <section id="sizes">
+    <div class="section-label">Sizes &amp; Space Planning</div>
     <h2 class="section-title">Sizes, Layout, and Space Planning for Senior Showers</h2>
     <p class="section-sub">
       The fastest way to reduce uncertainty is to confirm basic measurements. You do not need to be a contractor.
@@ -750,13 +1339,13 @@
     <div class="grid-2">
       <div>
         <div class="card">
-          <h3>Common shower sizes for elderly-friendly layouts</h3>
+          <h3>Common Shower Sizes for Elderly-Friendly Layouts</h3>
           <p>
             Many senior showers fit into the footprint of an existing tub. That is why sizes like 60 inches by 30–34 inches are so common.
             Larger roll in showers give more room for turning and caregiver support, and bariatric-friendly layouts can be wider still.
           </p>
           <p>
-            You do not need an “oversized bathroom” to improve entry and comfort. The key is selecting the right pan style and layout.
+            You do not need an "oversized bathroom" to improve entry and comfort. The key is selecting the right pan style and layout.
           </p>
           <ul>
             <li><strong>60 x 30 / 60 x 32 / 60 x 34:</strong> common replacements for tub-to-shower projects.</li>
@@ -765,8 +1354,8 @@
           </ul>
         </div>
 
-        <div class="card" style="margin-top:1rem;">
-          <h3>Turning, entry width, and “real movement space”</h3>
+        <div class="card mt-1">
+          <h3>Turning, Entry Width, and "Real Movement Space"</h3>
           <p>
             A shower can look large on paper but still feel tight if the entry is narrow or the door swing creates awkward movement.
             For elderly users, the goal is to reduce twisting and rushed stepping. Wider entries and open layouts can make showers feel calmer.
@@ -780,12 +1369,16 @@
 
       <div>
         <div class="img-card">
-          <img src="https://cdn.shopify.com/s/files/1/0606/5809/0036/files/shower_systems_image.jpg?v=1666884476" alt="Modern senior shower system with wide entry and seating options">
-          <div class="caption">Modern senior shower layout designed for easier movement and simpler cleaning.</div>
+          <img
+            src="https://cdn.shopify.com/s/files/1/0606/5809/0036/files/shower_systems_image.jpg?v=1666884476"
+            alt="Modern senior shower system with wide entry and seating options"
+            loading="lazy"
+          />
+          <div class="img-caption">Modern senior shower layout designed for easier movement and simpler cleaning.</div>
         </div>
 
-        <div class="strip" style="margin-top:1rem;">
-          <strong>Measurement tips:</strong>
+        <div class="strip mt-1h">
+          <strong>Measurement Tips</strong>
           <p>
             Measure the existing space wall-to-wall where the pan will sit. Note ceiling height, plumbing location (left, right, center),
             and whether you want the controls reachable from a seated position. Photos help too. If you request a quote, we can guide you
@@ -795,8 +1388,8 @@
       </div>
     </div>
 
-    <div class="table-wrap" style="margin-top:1.25rem;">
-      <table aria-label="Senior shower planning table">
+    <div class="table-wrap mt-1h">
+      <table aria-label="Senior shower planning decision table">
         <thead>
           <tr>
             <th>Decision Area</th>
@@ -810,7 +1403,7 @@
             <td><strong>Entry height</strong></td>
             <td>Barrier free or low threshold</td>
             <td>Reduces hesitation at the entry and supports steadier movement</td>
-            <td>Choosing a curb that feels “fine now” but creates stress later</td>
+            <td>Choosing a curb that feels "fine now" but creates stress later</td>
           </tr>
           <tr>
             <td><strong>Floor traction</strong></td>
@@ -839,24 +1432,28 @@
           <tr>
             <td><strong>Cleaning</strong></td>
             <td>Easy-clean walls, minimal grout, reachable shelves</td>
-            <td>Reduces strain and simplifies maintenance</td>
-            <td>Designing a shower that is difficult to maintain long-term</td>
+            <td>Reduces strain and simplifies maintenance long-term</td>
+            <td>Designing a shower that is difficult to maintain daily</td>
           </tr>
         </tbody>
       </table>
     </div>
   </section>
 
+  <!-- ============================================================
+       COMPARE
+  ============================================================ -->
   <section id="compare">
+    <div class="section-label">Side-by-Side Comparison</div>
     <h2 class="section-title">Roll In Shower vs Walk In Tub for Elderly Comfort</h2>
     <p class="section-sub">
       Many families compare a senior shower upgrade with a walk in tub. Both can be excellent. The best choice comes down to routine,
       energy level, bathroom space, and whether the person prefers standing, sitting, or soaking.
     </p>
 
-    <div class="grid-2">
+    <div class="grid-2-even">
       <div class="card">
-        <h3>When a roll in shower is often the better fit</h3>
+        <h3>When a Roll In Shower Is Often the Better Fit</h3>
         <p>
           Roll in showers tend to work well for people who want a faster routine, need caregiver assistance, or want a layout that adapts as mobility changes.
           They are also popular for families who want a shower that can be used by multiple generations without feeling unusual.
@@ -868,13 +1465,13 @@
           <li>Can be designed to feel like a spa shower, not a medical fixture</li>
         </ul>
         <p>
-          If you are looking for ADA-friendly shower products, you can also review options on
-          <a href="https://www.agingsafelybaths.com/handicap-showers/" target="_blank" rel="noopener">AgingSafelyBaths.com handicap and ADA showers</a>.
+          Explore ADA-friendly shower products at
+          <a href="https://www.agingsafelybaths.com/handicap-showers/" target="_blank" rel="noopener"><strong>AgingSafelyBaths.com — handicap and ADA showers</strong></a>.
         </p>
       </div>
 
       <div class="card">
-        <h3>When a walk in tub may be the better fit</h3>
+        <h3>When a Walk In Tub May Be the Better Fit</h3>
         <p>
           Walk in tubs are often chosen by seniors who love soaking, have chronic stiffness, or prefer seated bathing for the full routine.
           Many walk in tubs include hydrotherapy options that feel soothing and comforting.
@@ -886,23 +1483,27 @@
           <li>A good fit when the bathroom layout supports the tub size</li>
         </ul>
         <p>
-          Want to compare walk in tubs quickly? Visit
-          <a href="https://www.agingsafelybaths.com/walk-in-tubs/" target="_blank" rel="noopener">walk in tubs on AgingSafelyBaths.com</a>.
+          Compare walk in tub options at
+          <a href="https://www.agingsafelybaths.com/walk-in-tubs/" target="_blank" rel="noopener"><strong>walk in tubs on AgingSafelyBaths.com</strong></a>.
         </p>
       </div>
     </div>
 
-    <div class="strip" style="margin-top:1.2rem;">
-      <strong>Real-world guidance:</strong>
+    <div class="strip mt-1h">
+      <strong>Real-World Guidance</strong>
       <p>
         Many households choose a shower upgrade first because it supports daily routines and easier caregiver assistance.
-        Others choose a walk in tub because soaking is part of the person’s comfort and relaxation. If you want, we can ask a few quick questions
+        Others choose a walk in tub because soaking is part of the person's comfort and relaxation. If you want, we can ask a few quick questions
         and narrow your best options in minutes. Call <strong>1-888-779-2284 (BATH)</strong> or submit the form below.
       </p>
     </div>
   </section>
 
+  <!-- ============================================================
+       DESIGN DETAILS
+  ============================================================ -->
   <section>
+    <div class="section-label">Design Details</div>
     <h2 class="section-title">Design Details That Make Senior Showers Feel Better Every Day</h2>
     <p class="section-sub">
       The difference between a shower that looks good and a shower that feels good is usually a handful of small design decisions.
@@ -911,30 +1512,30 @@
 
     <div class="grid-3">
       <div class="card">
-        <h3>Reachable controls and simple temperature adjustments</h3>
+        <h3>Reachable Controls &amp; Simple Temperature Adjustments</h3>
         <p>
           Controls should be reachable without stretching, twisting, or stepping deeper into the shower. If the shower will be used seated,
           consider a layout where the person can reach the water controls from the seat.
         </p>
         <p>
           It can also help to position controls so the user can turn on the shower while standing outside the main spray path.
-          That reduces the “shock” feeling when first starting water.
+          That reduces the "shock" feeling when first starting water.
         </p>
       </div>
 
       <div class="card">
-        <h3>Handheld shower heads and flexible spray options</h3>
+        <h3>Handheld Shower Heads &amp; Flexible Spray Options</h3>
         <p>
           A handheld shower head can support seated showering and caregiver assistance. It also helps people rinse without bending.
           For seniors, bending and twisting can be uncomfortable, and sometimes creates balance problems.
         </p>
         <p>
-          Pairing a handheld head with a fixed head gives flexibility. The goal is to match the person’s routine, not just install a trendy fixture.
+          Pairing a handheld head with a fixed head gives flexibility. The goal is to match the person's routine, not just install a trendy fixture.
         </p>
       </div>
 
       <div class="card">
-        <h3>Storage and shelves at reachable heights</h3>
+        <h3>Storage &amp; Shelves at Reachable Heights</h3>
         <p>
           Soap and shampoo storage should not force awkward reaching. Built-in shelves can reduce bending.
           If multiple users share the shower, consider storage zones so items remain organized.
@@ -945,17 +1546,21 @@
       </div>
     </div>
 
-    <div class="grid-2" style="margin-top:1rem;">
+    <div class="grid-2 mt-1h">
       <div class="img-card">
-        <img src="https://www.agingsafelybaths.com/wp-content/uploads/2023/04/walk-in-tub-image-scaled.jpg" alt="Bathroom with walk in tub and adjacent shower setup">
-        <div class="caption">Some homes combine a senior shower with a tub option depending on space and routine preferences.</div>
+        <img
+          src="https://www.agingsafelybaths.com/wp-content/uploads/2023/04/walk-in-tub-image-scaled.jpg"
+          alt="Bathroom with walk in tub and adjacent shower setup"
+          loading="lazy"
+        />
+        <div class="img-caption">Some homes combine a senior shower with a tub option depending on space and routine preferences.</div>
       </div>
 
       <div>
         <div class="card">
-          <h3>Slip-resistant floors and predictable slope</h3>
+          <h3>Slip-Resistant Floors &amp; Predictable Slope</h3>
           <p>
-            A senior shower should feel stable underfoot. That comes from traction and from a slope that directs water without creating a “tilted floor” sensation.
+            A senior shower should feel stable underfoot. That comes from traction and from a slope that directs water without creating a "tilted floor" sensation.
             The best pans balance water flow with a surface that still feels natural to stand on.
           </p>
           <p>
@@ -964,30 +1569,35 @@
           </p>
         </div>
 
-        <div class="card" style="margin-top:1rem;">
-          <h3>Grab bars planned around real movement</h3>
+        <div class="card mt-1">
+          <h3>Grab Bars Planned Around Real Movement</h3>
           <p>
             Grab bars work best when they align with how the person actually moves. One person might need support at the entry.
             Another needs a bar near the seat. Another needs a stable point while turning.
           </p>
           <p>
-            If you request a quote, tell us where the user feels unstable. We can suggest a support layout that matches the routine.
+            If you request a quote, tell us where the user feels unsteady. We can suggest a support layout that matches the routine.
+            Learn more about our <a href="https://www.agingsafelybaths.com/factory-certified-installers/" target="_blank" rel="noopener"><strong>factory certified installers</strong></a>.
           </p>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- ============================================================
+       COST & BUDGET
+  ============================================================ -->
   <section>
+    <div class="section-label">Cost &amp; Budget</div>
     <h2 class="section-title">Cost and Budget Planning for Showers for Elderly Adults</h2>
     <p class="section-sub">
       Cost is often the biggest stress point. Most families want a clear range and a clear path forward without confusing add-ons.
       Pricing can vary by shower size, wall system, pan style, accessories, and installation needs.
     </p>
 
-    <div class="grid-2">
+    <div class="grid-2-even">
       <div class="card">
-        <h3>What drives cost the most</h3>
+        <h3>What Drives Cost the Most</h3>
         <p>
           The biggest cost factors are usually the size of the shower, the pan style (barrier free vs low threshold), and the wall system.
           Accessories like seating, grab bars, shelving, and upgraded drains can also affect budget.
@@ -996,16 +1606,16 @@
           <li><strong>Size:</strong> larger footprints and wider roll in pans can increase materials cost.</li>
           <li><strong>Pan style:</strong> barrier free and specialized drain solutions can raise complexity.</li>
           <li><strong>Walls:</strong> premium wall finishes and built-in features can change the quote.</li>
-          <li><strong>Installation:</strong> subfloor, plumbing location changes, and bathroom condition can affect labor.</li>
+          <li><strong>Installation:</strong> subfloor, plumbing location changes, and bathroom condition affect labor.</li>
         </ul>
         <p>
-          A smart approach is to pick the fundamentals first: entry feel, traction, support layout, and layout fit.
+          A smart approach is to pick the fundamentals first: entry feel, traction, support layout, and fit.
           Then choose finish upgrades once the functional design is locked in.
         </p>
       </div>
 
       <div class="card">
-        <h3>How to control budget without sacrificing comfort</h3>
+        <h3>How to Control Budget Without Sacrificing Comfort</h3>
         <p>
           Many seniors do not need every upgrade at once. The shower can be designed to be comfortable and usable, then enhanced over time.
           The most important budget choices often involve the pan and layout — because that is hard to change later.
@@ -1023,9 +1633,13 @@
     </div>
   </section>
 
+  <!-- ============================================================
+       QUOTE FORM
+  ============================================================ -->
   <section id="quote">
     <div class="quote-section">
       <div class="quote-left">
+        <div class="section-label">Free Consultation</div>
         <h2>Free Quote: Showers for Elderly Adults, Senior Showers, and Roll In Shower Options</h2>
         <p>
           Use this form to request guidance on the best shower setup for your needs. We help families compare roll in showers,
@@ -1037,44 +1651,38 @@
         </p>
 
         <div class="mini-grid">
-          <div class="mini"><b>Planning support</b>We will help you narrow options based on mobility, space, and budget.</div>
-          <div class="mini"><b>DIY or installation</b>We can support contractor installs and advise on options where available.</div>
-          <div class="mini"><b>Measurements made easy</b>We will tell you what dimensions matter most, without overwhelm.</div>
-          <div class="mini"><b>Comfort-focused</b>We prioritize easier entry, steadier movement, and practical layouts.</div>
+          <div class="mini"><b>Planning Support</b>We will help you narrow options based on mobility, space, and budget.</div>
+          <div class="mini"><b>DIY or Installation</b>We support contractor installs and drop-ship for DIY projects.</div>
+          <div class="mini"><b>Measurements Made Easy</b>We will tell you what dimensions matter most, without overwhelm.</div>
+          <div class="mini"><b>Comfort-Focused</b>We prioritize easier entry, steadier movement, and practical layouts.</div>
         </div>
       </div>
 
       <div class="form-box">
         <div class="form-title">Request a Free Consultation</div>
-        <div class="form-sub">Required fields are name, phone, and ZIP. Email is optional.</div>
+        <div class="form-sub">Required fields: name, phone, and ZIP. Email is optional.</div>
 
-        <!-- ===== LOCKED FORM REQUIREMENTS =====
-          Form ID: quoteForm
-          Required name attributes: user_name, user_phone, user_zip
-          Optional: user_email, user_message
-          Hidden: source_site (recommended)
-        ===================================== -->
-        <form id="quoteForm">
+        <form id="quoteForm" novalidate>
           <input type="hidden" name="source_site" value="showersforelderly.com" />
 
           <div class="form-row">
             <div>
               <label for="user_name">Full Name *</label>
-              <input id="user_name" name="user_name" type="text" required />
+              <input id="user_name" name="user_name" type="text" placeholder="Your name" required autocomplete="name" />
             </div>
             <div>
               <label for="user_phone">Phone *</label>
-              <input id="user_phone" name="user_phone" type="tel" required />
+              <input id="user_phone" name="user_phone" type="tel" placeholder="(555) 555-5555" required autocomplete="tel" />
             </div>
 
             <div class="full">
               <label for="user_zip">ZIP / Postal Code *</label>
-              <input id="user_zip" name="user_zip" type="text" required />
+              <input id="user_zip" name="user_zip" type="text" placeholder="Your ZIP code" required autocomplete="postal-code" />
             </div>
 
             <div class="full">
               <label for="user_email">Email (optional)</label>
-              <input id="user_email" name="user_email" type="email" />
+              <input id="user_email" name="user_email" type="email" placeholder="email@example.com" autocomplete="email" />
             </div>
 
             <div class="full">
@@ -1084,27 +1692,31 @@
           </div>
 
           <div class="form-actions">
-            <button class="btn-primary" type="submit">Send My Request</button>
+            <button class="btn-primary" type="submit">Send My Request →</button>
             <div class="disclaimer">
               By submitting, you agree we may contact you about shower and bathing options. We do not sell your information.
             </div>
           </div>
 
-          <div id="formStatus" aria-live="polite"></div>
+          <div id="formStatus" aria-live="polite" role="status"></div>
         </form>
       </div>
     </div>
   </section>
 
+  <!-- ============================================================
+       DEEP DIVE
+  ============================================================ -->
   <section>
-    <h2 class="section-title">Deep Dive: What Elderly Homeowners Ask Before Choosing a Senior Shower</h2>
+    <div class="section-label">Common Questions</div>
+    <h2 class="section-title">What Elderly Homeowners Ask Before Choosing a Senior Shower</h2>
     <p class="section-sub">
-      The internet has a lot of generic content about “accessible showers.” What people really need is decision clarity.
+      The internet has a lot of generic content about "accessible showers." What people really need is decision clarity.
       Here are practical questions families ask when they are choosing showers for elderly parents or planning a shower upgrade for themselves.
     </p>
 
     <div class="card">
-      <h3>“Do we need a roll in shower, or is a low threshold enough?”</h3>
+      <h3>"Do we need a roll in shower, or is a low threshold enough?"</h3>
       <p>
         This is one of the most important questions. A low threshold shower is often sufficient when the person can step confidently, even if stepping is slower.
         A roll in shower is often the better fit when wheelchairs are involved, when a caregiver assists, or when the household wants to minimize future disruption.
@@ -1114,41 +1726,55 @@
         It means the shower should feel easier now and remain usable later.
       </p>
 
-      <h3>“Will the shower still look modern?”</h3>
+      <h3 style="margin-top:1.25rem;">"Will the shower still look modern?"</h3>
       <p>
         Yes. Many senior showers use tile-style walls, clean lines, and simple shelving. The key is selecting finishes that feel like a modern bathroom rather than a hospital room.
         You can choose a neutral palette, warm lighting, and glass solutions that maintain a spa-inspired look while still supporting easier entry and steadier movement.
+        Accessible design and elegant design are not opposites — the best senior shower installations prove that every time.
       </p>
 
-      <h3>“What matters more: the seat, the grab bars, or the pan?”</h3>
+      <h3 style="margin-top:1.25rem;">"What matters more: the seat, the grab bars, or the pan?"</h3>
       <p>
         The pan and entry set the foundation. Seating and grab bars complete the usability. If the entry feels stressful, the shower will not feel welcoming.
         If the seating is poorly placed or the support points are not where the user naturally reaches, frustration builds. The best outcomes happen when all three are planned together.
       </p>
 
-      <h3>“Can we do this without a complicated remodel?”</h3>
+      <h3 style="margin-top:1.25rem;">"Can we do this without a complicated remodel?"</h3>
       <p>
         Many tub-to-shower projects fit into the existing footprint. Complexity depends on subfloor condition, drain location, and layout preferences.
-        A common path is to choose a shower system that fits the space well, then plan the upgrades like seating and support points in a way that matches the user’s routine.
+        A common path is to choose a shower system that fits the space well, then plan the upgrades like seating and support points in a way that matches the user's routine.
+        Our one-day installation service is designed specifically to minimize disruption to your home and schedule.
       </p>
 
-      <h3>“What should we do first if we are just starting?”</h3>
+      <h3 style="margin-top:1.25rem;">"What should we do first if we are just starting?"</h3>
       <p>
         Start with measurements and routine. Measure the space. Think about how the person enters the shower, where they stand, whether they sit, and what feels difficult.
-        Then request a quote so you can see options that match the space. Clarity reduces stress.
+        Then request a quote so you can see options that match the space. Clarity reduces stress — and the sooner you have a plan, the easier the next step becomes.
+      </p>
+
+      <h3 style="margin-top:1.25rem;">"Is financing or grant assistance available?"</h3>
+      <p>
+        Yes, in some cases. Veterans may qualify for the
+        <a href="https://www.agingsafelybaths.com/va-hisa-grant-for-bathroom-modifications/" target="_blank" rel="noopener"><strong>VA HISA Grant for Bathroom Modifications</strong></a>,
+        which can cover part or all of an accessible bathing upgrade. We can help you understand eligibility and documentation.
+        Non-veterans should ask about financing options when requesting a quote.
       </p>
     </div>
 
-    <div class="strip" style="margin-top:1.1rem;">
-      <strong>If you want quick help:</strong>
+    <div class="strip mt-1h">
+      <strong>If You Want Quick Help</strong>
       <p>
         Submit the quote form above with your ZIP and a short note about your current shower or tub. We will suggest practical options for senior showers, roll in showers,
-        and low threshold designs. If you prefer a call, dial <strong>1-888-779-2284 (BATH)</strong>.
+        and low threshold designs that match your space and routine. If you prefer a call, dial <strong>1-888-779-2284 (BATH)</strong>.
       </p>
     </div>
   </section>
 
+  <!-- ============================================================
+       FAQ
+  ============================================================ -->
   <section id="faq">
+    <div class="section-label">Frequently Asked Questions</div>
     <h2 class="section-title">FAQ: Showers for Elderly Adults, Senior Showers, and Roll In Shower Design</h2>
     <p class="section-sub">
       These are common questions people ask when researching showers for elderly homeowners. If you do not see your question here,
@@ -1193,7 +1819,7 @@
           <summary>Do you offer shower systems beyond elderly-focused designs?</summary>
           <p>
             Yes. If you are also comparing standard shower systems, visit our partner site
-            <a href="https://showers4less.com" target="_blank" rel="noopener">Showers4Less.com</a>
+            <a href="https://showers4less.com" target="_blank" rel="noopener"><strong>Showers4Less.com</strong></a>
             for a wide range of shower packages and wall systems.
           </p>
         </details>
@@ -1232,8 +1858,8 @@
           </p>
         </details>
 
-        <div class="strip">
-          <strong>Need help now?</strong>
+        <div class="strip strip-teal" style="margin-top:0.65rem;">
+          <strong>Need Help Right Now?</strong>
           <p>
             Call <strong>1-888-779-2284 (BATH)</strong> or submit the quote form above. We will help you compare roll in showers, low threshold showers,
             and senior shower layouts that match your bathroom.
@@ -1243,101 +1869,201 @@
     </div>
   </section>
 
+  <!-- ============================================================
+       BLOG / RESOURCES
+  ============================================================ -->
+  <section id="blog">
+    <div class="blog-section">
+      <div class="section-label">From the Blog</div>
+      <h2 class="section-title">Guides &amp; Resources for Accessible Bathing</h2>
+      <p class="section-sub" style="margin-bottom:0;">
+        Expert articles on walk in tubs, roll in showers, aging in place, and accessible bathroom design from the team at Aging Safely Baths &amp; More.
+      </p>
+
+      <div class="blog-grid">
+        <div class="blog-card">
+          <div class="blog-card-tag">Planning Guide</div>
+          <h3>Complete Walk-In Tub Guide: Features, Costs &amp; Installation</h3>
+          <p>Everything you need to know before buying a walk-in tub — including sizes, jet options, and what questions to ask installers.</p>
+          <a href="https://www.agingsafelybaths.com/walk-in-tub-guide/" target="_blank" rel="noopener" class="read-more">Read the guide →</a>
+        </div>
+
+        <div class="blog-card">
+          <div class="blog-card-tag">Accessibility</div>
+          <h3>Roll-In Shower Guide: Design, Sizing &amp; What to Expect</h3>
+          <p>A practical breakdown of roll-in shower options for seniors and caregivers — covering pans, drains, wall systems, and installation basics.</p>
+          <a href="https://www.agingsafelybaths.com/roll-in-shower-guide/" target="_blank" rel="noopener" class="read-more">Read the guide →</a>
+        </div>
+
+        <div class="blog-card">
+          <div class="blog-card-tag">Veterans &amp; Grants</div>
+          <h3>VA HISA Grant for Bathroom Modifications: How It Works</h3>
+          <p>Veterans may qualify for a grant covering accessible bathing upgrades. This guide explains eligibility, documentation, and how to apply.</p>
+          <a href="https://www.agingsafelybaths.com/va-hisa-grant-for-bathroom-modifications/" target="_blank" rel="noopener" class="read-more">Read the guide →</a>
+        </div>
+
+        <div class="blog-card">
+          <div class="blog-card-tag">Installation</div>
+          <h3>What Is White Glove Installation? Our One-Day Process Explained</h3>
+          <p>From the moment we arrive to cleanup, our White Glove service handles everything. Here is what the process looks like step by step.</p>
+          <a href="https://www.agingsafelybaths.com/white-glove-installation/" target="_blank" rel="noopener" class="read-more">Read more →</a>
+        </div>
+
+        <div class="blog-card">
+          <div class="blog-card-tag">ADA &amp; Handicap</div>
+          <h3>Handicap Showers: ADA Requirements, Design Options &amp; Costs</h3>
+          <p>What makes a shower ADA-compliant? This guide covers grab bar placement, entry dimensions, seat requirements, and more.</p>
+          <a href="https://www.agingsafelybaths.com/handicap-showers/" target="_blank" rel="noopener" class="read-more">Explore options →</a>
+        </div>
+
+        <div class="blog-card">
+          <div class="blog-card-tag">Shopping Guide</div>
+          <h3>Browse All Walk-In Tubs: Sizes, Styles &amp; Jet Options</h3>
+          <p>Compare our full lineup of walk-in tubs — from soaking models to hydrotherapy tubs with air and water jets.</p>
+          <a href="https://www.agingsafelybaths.com/walk-in-tubs/" target="_blank" rel="noopener" class="read-more">Browse tubs →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </main>
 
-<footer id="contact">
+<!-- ============================================================
+     FOOTER
+============================================================ -->
+<footer id="contact" itemscope itemtype="https://schema.org/Organization">
   <div class="footer-inner">
-    <div>
-      <div class="footer-title">Aging Safely Baths &amp; More</div>
-      <div class="footer-muted">ShowersForElderly.com • Senior showers and roll in shower options nationwide.</div>
-      <div style="margin-top:0.55rem;color:var(--ink);font-weight:700">
-        Phone: <a href="tel:18887792284">1-888-779-2284 (BATH)</a><br/>
-        Email: <a href="mailto:sales@agingsafelybaths.com">sales@agingsafelybaths.com</a>
-      </div>
 
-      <div style="margin-top:0.65rem" class="footer-muted">
-        Helpful links:
-        <a href="https://www.agingsafelybaths.com/walk-in-tubs/" target="_blank" rel="noopener">Walk in tubs</a> •
-        <a href="https://www.agingsafelybaths.com/handicap-showers/" target="_blank" rel="noopener">Handicap and ADA showers</a> •
-        <a href="https://showers4less.com" target="_blank" rel="noopener">Showers4Less.com</a>
+    <div>
+      <div class="footer-logo-wrap">
+        <img
+          src="https://www.agingsafelybaths.com/wp-content/uploads/2026/03/Aging-Safely-Baths-Logo-320.png"
+          alt="Aging Safely Baths &amp; More"
+          width="160"
+          height="60"
+          loading="lazy"
+        />
+      </div>
+      <div class="footer-muted" itemprop="description">
+        ShowersForElderly.com is a resource site operated by Aging Safely Baths &amp; More — specialists in accessible bathing solutions for seniors and aging-in-place homeowners nationwide.
+      </div>
+      <div class="footer-contact" style="margin-top:0.85rem;">
+        <div style="margin-bottom:0.35rem;">
+          📞 <a href="tel:18887792284" itemprop="telephone"><strong>1-888-779-2284 (BATH)</strong></a>
+        </div>
+        <div class="footer-muted">
+          Helpful Links:
+          <a href="https://www.agingsafelybaths.com/walk-in-tubs/" target="_blank" rel="noopener">Walk in tubs</a> &bull;
+          <a href="https://www.agingsafelybaths.com/handicap-showers/" target="_blank" rel="noopener">ADA showers</a> &bull;
+          <a href="https://showers4less.com" target="_blank" rel="noopener">Showers4Less.com</a>
+        </div>
       </div>
     </div>
 
     <div>
-      <div class="footer-title">HTML Sitemap</div>
-      <div class="footer-muted">Fast navigation for users and crawlers.</div>
-      <div class="footer-nav" aria-label="Footer navigation">
-        <a href="#home">Home</a>
-        <a href="#options">Shower Options</a>
-        <a href="#planning">Planning Guide</a>
-        <a href="#sizes">Sizes &amp; Layout</a>
-        <a href="#compare">Shower vs Tub</a>
-        <a href="#quote">Free Quote</a>
-        <a href="#faq">FAQ</a>
-        <a href="/sitemap.xml">XML Sitemap</a>
-        <a href="https://www.agingsafelybaths.com/about/locations/" target="_blank" rel="noopener">Locations</a>
-      </div>
+      <div class="footer-title">Site Navigation</div>
+      <ul class="footer-nav-list" aria-label="Site links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#options">Shower Options</a></li>
+        <li><a href="#planning">Planning Guide</a></li>
+        <li><a href="#sizes">Sizes &amp; Layout</a></li>
+        <li><a href="#compare">Shower vs Tub</a></li>
+        <li><a href="#quote">Free Quote</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#blog">Blog &amp; Resources</a></li>
+        <li><a href="/sitemap.xml">XML Sitemap</a></li>
+        <li><a href="https://www.agingsafelybaths.com/about/locations/" target="_blank" rel="noopener">Service Locations</a></li>
+      </ul>
     </div>
+
+    <div>
+      <div class="footer-title">Resources &amp; Guides</div>
+      <ul class="footer-nav-list" aria-label="Resource links">
+        <li><a href="https://www.agingsafelybaths.com/walk-in-tub-guide/" target="_blank" rel="noopener">Walk-In Tub Guide</a></li>
+        <li><a href="https://www.agingsafelybaths.com/roll-in-shower-guide/" target="_blank" rel="noopener">Roll-In Shower Guide</a></li>
+        <li><a href="https://www.agingsafelybaths.com/va-hisa-grant-for-bathroom-modifications/" target="_blank" rel="noopener">VA HISA Grant Guide</a></li>
+        <li><a href="https://www.agingsafelybaths.com/white-glove-installation/" target="_blank" rel="noopener">White Glove Installation</a></li>
+        <li><a href="https://www.agingsafelybaths.com/factory-certified-installers/" target="_blank" rel="noopener">Factory Certified Installers</a></li>
+        <li><a href="https://www.agingsafelybaths.com/walk-in-tub-leak-protection/" target="_blank" rel="noopener">Leak Protection</a></li>
+        <li><a href="https://www.agingsafelybaths.com/walk-in-tubs/" target="_blank" rel="noopener">All Walk-In Tubs</a></li>
+        <li><a href="https://showers4less.com" target="_blank" rel="noopener">Showers4Less.com</a></li>
+      </ul>
+    </div>
+
   </div>
 
   <div class="footer-bottom">
-    <div>© 2026 Aging Safely Baths &amp; More. All Rights Reserved.</div>
+    <div>© 2026 Aging Safely Baths &amp; More. All Rights Reserved. &bull; ShowersForElderly.com</div>
     <div>
-      <a href="/sitemap.xml">XML Sitemap</a> • <a href="#home">Back to top ↑</a>
+      <a href="/sitemap.xml">XML Sitemap</a> &bull; <a href="#home">Back to top ↑</a>
     </div>
   </div>
 </footer>
 
-<!-- =========================
-     EMAILJS FORM (LOCKED)
-     Verified Working Config
-========================== -->
-<!-- EmailJS Browser v4 -->
+<!-- ============================================================
+     HAMBURGER MENU JS
+============================================================ -->
+<script>
+function toggleMenu(btn) {
+  const nav = document.getElementById('mobileNav');
+  const expanded = btn.getAttribute('aria-expanded') === 'true';
+  btn.setAttribute('aria-expanded', !expanded);
+  if (!expanded) {
+    nav.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  } else {
+    closeMenu();
+  }
+}
+function closeMenu() {
+  const nav = document.getElementById('mobileNav');
+  const btn = document.querySelector('.hamburger');
+  nav.classList.remove('open');
+  document.body.style.overflow = '';
+  if (btn) btn.setAttribute('aria-expanded', 'false');
+}
+function closeMenuOnOverlay(e) {
+  if (e.target === document.getElementById('mobileNav')) closeMenu();
+}
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeMenu();
+});
+</script>
+
+<!-- ============================================================
+     EMAILJS FORM
+============================================================ -->
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  /* ===== REQUIRED CONFIG ===== */
   const EMAILJS_PUBLIC_KEY  = "alWutsHLG6c3h9P2j";
   const EMAILJS_SERVICE_ID  = "service_usimtub";
   const EMAILJS_TEMPLATE_ID = "template_5n0cskt";
-
-  /* ===== REQUIRED ELEMENTS ===== */
   const form = document.getElementById("quoteForm");
   const statusEl = document.getElementById("formStatus");
 
-  if (!form) {
-    console.error("quoteForm not found.");
-    return;
-  }
+  if (!form) return;
 
-  /* ===== INIT EMAILJS ===== */
   emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
 
-  /* ===== FORM SUBMIT ===== */
   form.addEventListener("submit", function (e) {
     e.preventDefault();
-
     if (statusEl) {
-      statusEl.style.color = "#0a6f7f";
+      statusEl.style.color = "#1a6e9a";
       statusEl.textContent = "Sending…";
     }
-
-    emailjs.sendForm(
-      EMAILJS_SERVICE_ID,
-      EMAILJS_TEMPLATE_ID,
-      form
-    ).then(
+    emailjs.sendForm(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, form).then(
       function () {
         if (statusEl) {
           statusEl.style.color = "#1ba97f";
-          statusEl.textContent = "Success! We received your request and will reach out shortly.";
+          statusEl.textContent = "✓ We received your request and will reach out shortly!";
         }
         form.reset();
       },
       function (error) {
         if (statusEl) {
-          statusEl.style.color = "#d94532";
-          statusEl.textContent = "There was a problem sending your request. Please try again or call 1-888-779-2284 (BATH).";
+          statusEl.style.color = "#c0392b";
+          statusEl.textContent = "There was a problem. Please try again or call 1-888-779-2284 (BATH).";
         }
         console.error("EmailJS error:", error);
       }
@@ -1346,66 +2072,145 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
 
-<!-- =========================
-        BASIC SCHEMA
-========================== -->
+<!-- ============================================================
+     SCHEMA — Organization
+============================================================ -->
 <script type="application/ld+json">
 {
-  "@context":"https://schema.org",
-  "@type":"Organization",
-  "name":"Aging Safely Baths & More",
-  "url":"https://showersforelderly.com/",
-  "telephone":"+1-888-779-2284",
-  "sameAs":[
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Aging Safely Baths & More",
+  "url": "https://showersforelderly.com/",
+  "logo": "https://www.agingsafelybaths.com/wp-content/uploads/2026/03/Aging-Safely-Baths-Logo-320.png",
+  "telephone": "+1-888-779-2284",
+  "description": "Senior shower specialists offering roll in showers, low threshold showers, and accessible bathing solutions for aging in place. Nationwide service available.",
+  "areaServed": "US",
+  "sameAs": [
     "https://www.agingsafelybaths.com",
     "https://showers4less.com"
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"WebSite",
-  "url":"https://showersforelderly.com/",
-  "name":"Showers For Elderly",
-  "potentialAction":{
-    "@type":"SearchAction",
-    "target":"https://showersforelderly.com/?s={search_term_string}",
-    "query-input":"required name=search_term_string"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-888-779-2284",
+    "contactType": "customer service",
+    "availableLanguage": "English"
   }
 }
 </script>
 
+<!-- ============================================================
+     SCHEMA — WebSite
+============================================================ -->
 <script type="application/ld+json">
 {
-  "@context":"https://schema.org",
-  "@type":"FAQPage",
-  "mainEntity":[
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "url": "https://showersforelderly.com/",
+  "name": "Showers For Elderly — Senior Shower Solutions",
+  "description": "Compare roll in showers, low threshold showers, and accessible bathing options for elderly adults and aging in place.",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://showersforelderly.com/?s={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<!-- ============================================================
+     SCHEMA — FAQPage
+============================================================ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
     {
-      "@type":"Question",
-      "name":"Do showers for elderly adults require a full bathroom rebuild?",
-      "acceptedAnswer":{"@type":"Answer","text":"Not always. Many senior shower upgrades use the same footprint as an existing tub or shower. The work depends on plumbing location, subfloor condition, and whether the design is barrier free or low threshold."}
+      "@type": "Question",
+      "name": "Do showers for elderly adults require a full bathroom rebuild?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Not always. Many senior shower upgrades use the same footprint as an existing tub or shower. The work depends on plumbing location, subfloor condition, and whether the design is barrier free or low threshold." }
     },
     {
-      "@type":"Question",
-      "name":"Are roll in showers only for wheelchair users?",
-      "acceptedAnswer":{"@type":"Answer","text":"No. Roll in showers can benefit many seniors who do not use a wheelchair. Easier entry and open layouts can reduce stress and also support caregiver assistance."}
+      "@type": "Question",
+      "name": "Are roll in showers only for wheelchair users?",
+      "acceptedAnswer": { "@type": "Answer", "text": "No. Roll in showers can benefit many seniors who do not use a wheelchair. Easier entry and open layouts can reduce stress and also support caregiver assistance." }
     },
     {
-      "@type":"Question",
-      "name":"What is the difference between a low threshold shower and a barrier free shower?",
-      "acceptedAnswer":{"@type":"Answer","text":"A low threshold shower reduces the step height but still has a small curb or bevel. A barrier free shower aims for near-flush entry where the threshold is minimal or aligned with the bathroom floor."}
+      "@type": "Question",
+      "name": "What is the difference between a low threshold shower and a barrier free shower?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A low threshold shower reduces the step height but still has a small curb or bevel. A barrier free shower aims for near-flush entry where the threshold is minimal or aligned with the bathroom floor." }
     },
     {
-      "@type":"Question",
-      "name":"Can senior showers still include glass doors?",
-      "acceptedAnswer":{"@type":"Answer","text":"Yes, depending on layout. Some designs use a wide opening with a partial glass panel, while others use doors designed for easier access. The goal is to avoid a swing that blocks entry or creates awkward movement."}
+      "@type": "Question",
+      "name": "Can senior showers still include glass doors?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes, depending on layout. Some designs use a wide opening with a partial glass panel, while others use doors designed for easier access. The goal is to avoid a swing that blocks entry or creates awkward movement." }
     },
     {
-      "@type":"Question",
-      "name":"Can a low threshold shower work for a walker?",
-      "acceptedAnswer":{"@type":"Answer","text":"It can, depending on step comfort and balance. Many walker users prefer very low thresholds and strong traction. Layout and drainage planning matter more when mobility aids are involved."}
+      "@type": "Question",
+      "name": "Can a low threshold shower work for a walker?",
+      "acceptedAnswer": { "@type": "Answer", "text": "It can, depending on step comfort and balance. Many walker users prefer very low thresholds and strong traction. If a walker is used inside the shower, layout and drainage planning become more important." }
+    },
+    {
+      "@type": "Question",
+      "name": "How quickly can we get a quote for showers for elderly parents?",
+      "acceptedAnswer": { "@type": "Answer", "text": "If you submit the form with your ZIP code and a few notes about the current bathroom, we can follow up quickly. The more accurate your basic measurements and photos are, the easier it is to narrow options." }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the most important upgrades for elderly shower comfort?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Most people benefit from easier entry, reliable traction, well-positioned seating, and support points that match natural movement. Reachable controls and a handheld shower head also make daily bathing easier." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is financing or grant assistance available for senior shower upgrades?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Veterans may qualify for the VA HISA Grant for Bathroom Modifications, which can cover part or all of an accessible bathing upgrade. Non-veterans should ask about financing options when requesting a quote." }
+    }
+  ]
+}
+</script>
+
+<!-- ============================================================
+     SCHEMA — Service (Agentic AI optimization)
+============================================================ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Senior Shower Installation",
+  "name": "Showers for Elderly — Roll In Showers & Senior Shower Solutions",
+  "description": "Nationwide installation of roll in showers, low threshold showers, and curbless walk-in showers for elderly adults and aging-in-place homeowners. Includes one-day White Glove installation, factory certified installers, and DIY drop-ship options.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Aging Safely Baths & More",
+    "url": "https://www.agingsafelybaths.com",
+    "telephone": "+1-888-779-2284"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  },
+  "url": "https://showersforelderly.com/",
+  "offers": {
+    "@type": "Offer",
+    "description": "Free consultation and quote for senior shower installation. Call 1-888-779-2284.",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+}
+</script>
+
+<!-- ============================================================
+     SCHEMA — BreadcrumbList
+============================================================ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://showersforelderly.com/"
     }
   ]
 }
