@@ -82,7 +82,7 @@
       gap: 0;
     }
     .brand img {
-      height: 200px;
+      height: 120px;
       width: auto;
       display: block;
       object-fit: contain;
@@ -913,10 +913,12 @@
 
     @media (max-width: 860px) {
       .header-nav { display: none; }
-      .header-cta { display: none; }
+      .header-cta { display: flex; flex-direction: column; align-items: flex-end; gap: 0.1rem; }
+      .header-cta .label { display: none; }
+      .header-cta a { font-size: 0.88rem; font-weight: 900; }
       .hamburger { display: flex; }
-      .brand img { height: 200px; }
-      .header-inner { height: auto; min-height: 90px; padding-top: 0.65rem; padding-bottom: 0.65rem; }
+      .brand img { height: 100px; }
+      .header-inner { height: auto; min-height: 72px; padding-top: 0.5rem; padding-bottom: 0.5rem; }
 
       .hero-inner { grid-template-columns: 1fr; padding: 2.5rem 1.25rem; }
       .hero-media { display: block; margin-top: 1.5rem; }
@@ -938,8 +940,8 @@
     }
 
     @media (max-width: 480px) {
-      .brand img { height: 200px; }
-      .header-inner { min-height: 80px; padding-top: 0.5rem; padding-bottom: 0.5rem; }
+      .brand img { height: 90px; }
+      .header-inner { min-height: 64px; padding-top: 0.4rem; padding-bottom: 0.4rem; }
       .trust-bar-inner { gap: 0.85rem; }
       .trust-item { font-size: 0.75rem; }
     }
@@ -972,7 +974,7 @@
       <a href="#compare">Tub vs Shower</a>
       <a href="#quote">Free Quote</a>
       <a href="#faq">FAQ</a>
-      <a href="#blog" class="blog-link">📖 Blog</a>
+      <a href="/blog/" class="blog-link">📖 Blog</a>
     </nav>
 
     <div class="header-cta">
@@ -1008,12 +1010,11 @@
       <a href="#compare" onclick="closeMenu()">Roll In vs Walk In Tub</a>
       <a href="#quote" onclick="closeMenu()">Get a Free Quote</a>
       <a href="#faq" onclick="closeMenu()">FAQ</a>
-      <div class="blog-section-heading">📖 Blog &amp; Resources</div>
-      <a href="https://www.agingsafelybaths.com/blog/" target="_blank" rel="noopener" class="blog-item" onclick="closeMenu()">All Blog Articles →</a>
-      <a href="https://www.agingsafelybaths.com/walk-in-tub-guide/" target="_blank" rel="noopener" class="blog-item" onclick="closeMenu()">Walk-In Tub Guide</a>
-      <a href="https://www.agingsafelybaths.com/roll-in-shower-guide/" target="_blank" rel="noopener" class="blog-item" onclick="closeMenu()">Roll-In Shower Guide</a>
-      <a href="https://www.agingsafelybaths.com/va-hisa-grant-for-bathroom-modifications/" target="_blank" rel="noopener" class="blog-item" onclick="closeMenu()">VA HISA Grant Guide</a>
-      <a href="https://www.agingsafelybaths.com/white-glove-installation/" target="_blank" rel="noopener" class="blog-item" onclick="closeMenu()">White Glove Installation</a>
+      <div class="blog-section-heading">📖 Blog Articles</div>
+      <a href="/blog/" onclick="closeMenu()" class="blog-item">All Blog Posts</a>
+      <a href="/choosing-a-roll-in-shower-for-elderly.html" onclick="closeMenu()" class="blog-item">Choosing a Roll-In Shower for Elderly</a>
+      <a href="/ada-roll-in-showers-and-fall-prevention.html" onclick="closeMenu()" class="blog-item">ADA Roll-In Showers &amp; Fall Prevention</a>
+      <a href="/low-threshold-showers-vs-standard-tubs.html" onclick="closeMenu()" class="blog-item">Low Threshold Showers vs Standard Tubs</a>
     </nav>
     <div class="mobile-cta-box">
       <div class="label">Call Toll-Free Anytime</div>
@@ -1882,45 +1883,24 @@
 
       <div class="blog-grid">
         <div class="blog-card">
-          <div class="blog-card-tag">Planning Guide</div>
-          <h3>Complete Walk-In Tub Guide: Features, Costs &amp; Installation</h3>
-          <p>Everything you need to know before buying a walk-in tub — including sizes, jet options, and what questions to ask installers.</p>
-          <a href="https://www.agingsafelybaths.com/walk-in-tub-guide/" target="_blank" rel="noopener" class="read-more">Read the guide →</a>
+          <div class="blog-card-tag">Roll-In Showers</div>
+          <h3>Choosing a Roll-In Shower for Elderly: What to Look For</h3>
+          <p>A practical guide to selecting the right roll-in shower — covering entry styles, drain placement, sizing, and what makes a design truly usable for seniors.</p>
+          <a href="/choosing-a-roll-in-shower-for-elderly.html" class="read-more">Read the article →</a>
         </div>
 
         <div class="blog-card">
-          <div class="blog-card-tag">Accessibility</div>
-          <h3>Roll-In Shower Guide: Design, Sizing &amp; What to Expect</h3>
-          <p>A practical breakdown of roll-in shower options for seniors and caregivers — covering pans, drains, wall systems, and installation basics.</p>
-          <a href="https://www.agingsafelybaths.com/roll-in-shower-guide/" target="_blank" rel="noopener" class="read-more">Read the guide →</a>
+          <div class="blog-card-tag">Accessibility &amp; Safety</div>
+          <h3>ADA Roll-In Showers and Fall Prevention: What You Need to Know</h3>
+          <p>How ADA-compliant roll-in showers reduce fall risk for elderly adults — including grab bar standards, floor traction requirements, and entry design.</p>
+          <a href="/ada-roll-in-showers-and-fall-prevention.html" class="read-more">Read the article →</a>
         </div>
 
         <div class="blog-card">
-          <div class="blog-card-tag">Veterans &amp; Grants</div>
-          <h3>VA HISA Grant for Bathroom Modifications: How It Works</h3>
-          <p>Veterans may qualify for a grant covering accessible bathing upgrades. This guide explains eligibility, documentation, and how to apply.</p>
-          <a href="https://www.agingsafelybaths.com/va-hisa-grant-for-bathroom-modifications/" target="_blank" rel="noopener" class="read-more">Read the guide →</a>
-        </div>
-
-        <div class="blog-card">
-          <div class="blog-card-tag">Installation</div>
-          <h3>What Is White Glove Installation? Our One-Day Process Explained</h3>
-          <p>From the moment we arrive to cleanup, our White Glove service handles everything. Here is what the process looks like step by step.</p>
-          <a href="https://www.agingsafelybaths.com/white-glove-installation/" target="_blank" rel="noopener" class="read-more">Read more →</a>
-        </div>
-
-        <div class="blog-card">
-          <div class="blog-card-tag">ADA &amp; Handicap</div>
-          <h3>Handicap Showers: ADA Requirements, Design Options &amp; Costs</h3>
-          <p>What makes a shower ADA-compliant? This guide covers grab bar placement, entry dimensions, seat requirements, and more.</p>
-          <a href="https://www.agingsafelybaths.com/handicap-showers/" target="_blank" rel="noopener" class="read-more">Explore options →</a>
-        </div>
-
-        <div class="blog-card">
-          <div class="blog-card-tag">Shopping Guide</div>
-          <h3>Browse All Walk-In Tubs: Sizes, Styles &amp; Jet Options</h3>
-          <p>Compare our full lineup of walk-in tubs — from soaking models to hydrotherapy tubs with air and water jets.</p>
-          <a href="https://www.agingsafelybaths.com/walk-in-tubs/" target="_blank" rel="noopener" class="read-more">Browse tubs →</a>
+          <div class="blog-card-tag">Comparison Guide</div>
+          <h3>Low Threshold Showers vs Standard Tubs: Which Is Right for You?</h3>
+          <p>Side-by-side comparison of low threshold shower upgrades versus keeping a standard tub — for seniors weighing comfort, cost, and long-term usability.</p>
+          <a href="/low-threshold-showers-vs-standard-tubs.html" class="read-more">Read the article →</a>
         </div>
       </div>
     </div>
