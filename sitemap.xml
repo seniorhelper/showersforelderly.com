@@ -1,41 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset 
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
-                      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-  <!-- HOMEPAGE -->
-  <url>
-    <loc>https://showersforelderly.com/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <!-- BLOG LIST -->
-  <url>
-    <loc>https://showersforelderly.com/blog/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- BLOG POSTS -->
-  <url>
-    <loc>https://showersforelderly.com/blog/choosing-a-roll-in-shower-for-elderly.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://showersforelderly.com/blog/low-threshold-showers-vs-standard-tubs.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://showersforelderly.com/blog/ada-roll-in-showers-and-fall-prevention.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://showersforelderly.com/</loc><lastmod>2026-09-21</lastmod></url>
+  <url><loc>https://showersforelderly.com/choosing-a-roll-in-shower-for-elderly.html</loc><lastmod>2026-09-21</lastmod></url>
+  <url><loc>https://showersforelderly.com/ada-roll-in-showers-and-fall-prevention.html</loc><lastmod>2026-09-21</lastmod></url>
+  <url><loc>https://showersforelderly.com/low-threshold-showers-vs-standard-tubs.html</loc><lastmod>2026-09-21</lastmod></url>
+  <url><loc>https://showersforelderly.com/walk-in-showers-for-seniors.html</loc><lastmod>2026-09-21</lastmod></url>
+  <url><loc>https://showersforelderly.com/ada-compliant-showers.html</loc><lastmod>2026-09-21</lastmod></url>
+  <url><loc>https://showersforelderly.com/barrier-free-showers.html</loc><lastmod>2026-09-21</lastmod></url>
+  <url><loc>https://showersforelderly.com/tub-to-shower-conversions-for-seniors.html</loc><lastmod>2026-09-21</lastmod></url>
+  <url><loc>https://showersforelderly.com/affordable-walk-in-showers-for-seniors.html</loc><lastmod>2026-09-21</lastmod></url>
+  <url><loc>https://showersforelderly.com/blog/</loc><lastmod>2026-09-21</lastmod></url>
+  <url><loc>https://showersforelderly.com/blog/shower-benches-for-elderly.html</loc><lastmod>2026-09-21</lastmod></url>
+  <url><loc>https://showersforelderly.com/blog/rolling-shower-chair-guide.html</loc><lastmod>2026-09-21</lastmod></url>
+  <url><loc>https://showersforelderly.com/blog/bathroom-safety-checklist-for-older-adults.html</loc><lastmod>2026-09-21</lastmod></url>
+  <url><loc>https://showersforelderly.com/blog/caregiver-assisted-shower-planning.html</loc><lastmod>2026-09-21</lastmod></url>
+  <url><loc>https://showersforelderly.com/sitemap.html</loc><lastmod>2026-09-21</lastmod></url>
 </urlset>
