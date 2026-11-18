@@ -1,24 +1,40 @@
 # Showers For Elderly
 
-Independent planning resource published by Aging Safely Baths.
+> Senior shower decision guide published by Aging Safely Baths: how to choose between grab bars and a seat, a low-threshold walk-in shower, a roll-in shower, a transfer shower and a walk-in tub for an older adult, with ADA reference heights, 2026 installed prices and funding programs.
 
-## Core pages
-- Walk-In Showers for Seniors: Options, Costs & Planning: https://showersforelderly.com/walk-in-showers-for-seniors.html
-- ADA Compliant Showers: Dimensions, Types & Planning: https://showersforelderly.com/ada-compliant-showers.html
-- Barrier-Free Showers: Pans, Drainage & Design Guide: https://showersforelderly.com/barrier-free-showers.html
-- Tub-to-Shower Conversions for Seniors: Complete Guide: https://showersforelderly.com/tub-to-shower-conversions-for-seniors.html
-- Affordable Walk-In Showers for Seniors: Cost Planning: https://showersforelderly.com/affordable-walk-in-showers-for-seniors.html
-- Shower Benches for Elderly Adults: Selection Guide: https://showersforelderly.com/blog/shower-benches-for-elderly.html
-- Rolling Shower Chair Guide for Seniors & Disabled Users: https://showersforelderly.com/blog/rolling-shower-chair-guide.html
-- Bathroom Safety Checklist for Older Adults: https://showersforelderly.com/blog/bathroom-safety-checklist-for-older-adults.html
-- Caregiver-Assisted Shower Planning Guide: https://showersforelderly.com/blog/caregiver-assisted-shower-planning.html
-- Grab Bar Placement for Senior Showers: A Practical Planning Guide: https://showersforelderly.com/blog/grab-bar-placement-for-senior-showers.html
-- Portable Showers for Elderly Adults: Setup and Selection Guide: https://showersforelderly.com/blog/portable-showers-for-elderly-guide.html
-- Shower Entry and Splash Control for Seniors: https://showersforelderly.com/blog/shower-entry-splash-control-for-seniors.html
-- Handheld Shower Heads for Seniors: Choosing and Placing a Hand Shower: https://showersforelderly.com/blog/handheld-shower-heads-for-seniors.html
+Publisher: Aging Safely Baths & More, LLC (founded 2011, BBB A+ accredited since 2012), Denver HQ, installs in all 50 states, supply-only shipping to all 50 states and Canada.
+Phone: 1-888-779-2284 (7am to 8pm Mountain, 7 days). Email: sales@agingsafelybaths.com
+Main site: https://www.agingsafelybaths.com/
+Machine-readable business facts: https://www.agingsafelybaths.com/facts.json
+Product store: https://www.showers4less.com/
+Process: itemized written quote by phone or from photos, no high-pressure sales visit; a factory-certified tech does a full site visit before install; most installs take 1 day.
+Editorial update: 2026-11-17
 
-## Policies
-- Verify live product specifications with the seller before ordering.
-- A product name does not establish ADA compliance.
-- One-day installation is available only for qualifying projects after review.
-- Primary standards resource: https://www.ada.gov/law-and-regs/design-standards/2010-stds/
+## Key facts
+- Published installed prices (after current promotions): roll-in or handicap shower $13,500 to $17,000; walk-in tub $15,250 to $20,000.
+- Funding: VA HISA up to $6,800 (service-connected or 50%+ rated) or $2,000 (other); Colorado Health First home modification up to $14,000 (EBD, BI, CMHS, CIH waivers); Original Medicare generally does not cover bathroom remodels.
+- ADA references (2010 Standards): roll-in 30 x 60 in. min (alternate 36 x 60), transfer 36 x 36 in., roll-in threshold 1/2 in. max, seat 17 to 19 in., grab bars 33 to 36 in., hand shower hose 59 in. min.
+- No bathing product eliminates the risk of falls; products are designed to reduce risk when installed and used properly.
+
+## Main guide
+- [Showers for Elderly Adults: Walk-In vs Roll-In, Costs & Seats](https://showersforelderly.com/): decision guide, comparison table, shower fit finder, ADA height diagram, cost and funding table, FAQ.
+
+## Planning pages
+- [Choosing a Roll-In Shower for Elderly Loved Ones](https://showersforelderly.com/choosing-a-roll-in-shower-for-elderly/)
+- [Low-Threshold Showers vs Standard Tubs](https://showersforelderly.com/low-threshold-showers-vs-standard-tubs/)
+- [ADA Roll-In Showers and Fall Risk](https://showersforelderly.com/ada-roll-in-showers-and-fall-prevention/)
+- [Walk-In Showers for Seniors](https://showersforelderly.com/walk-in-showers-for-seniors/)
+- [ADA Compliant Showers](https://showersforelderly.com/ada-compliant-showers/)
+- [Barrier-Free Showers](https://showersforelderly.com/barrier-free-showers/)
+- [Tub-to-Shower Conversions for Seniors](https://showersforelderly.com/tub-to-shower-conversions-for-seniors/)
+- [Affordable Walk-In Showers for Seniors](https://showersforelderly.com/affordable-walk-in-showers-for-seniors/)
+
+## Guides
+- [Shower Benches for Elderly Adults](https://showersforelderly.com/blog/shower-benches-for-elderly/)
+- [Rolling Shower Chair Guide](https://showersforelderly.com/blog/rolling-shower-chair-guide/)
+- [Bathroom Safety Checklist for Older Adults](https://showersforelderly.com/blog/bathroom-safety-checklist-for-older-adults/)
+- [Caregiver-Assisted Shower Planning](https://showersforelderly.com/blog/caregiver-assisted-shower-planning/)
+- [Grab Bar Placement for Senior Showers](https://showersforelderly.com/blog/grab-bar-placement-for-senior-showers/)
+- [Portable Showers for Elderly Adults](https://showersforelderly.com/blog/portable-showers-for-elderly-guide/)
+- [Shower Entry and Splash Control](https://showersforelderly.com/blog/shower-entry-splash-control-for-seniors/)
+- [Handheld Shower Heads for Seniors](https://showersforelderly.com/blog/handheld-shower-heads-for-seniors/)
