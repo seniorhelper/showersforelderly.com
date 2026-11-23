@@ -26,6 +26,6 @@ The homepage includes 21 linked Showers4Less product examples. Product specifica
 
 Product media is isolated in fixed-height, clipped frames so tall catalog images cannot overlap card titles or descriptions.
 
-All lead forms use FormSubmit with a hidden honeypot, provider CAPTCHA, a minimum interaction-time check, and a JavaScript-assembled destination address. The destination email is not printed in visible page content or stored as a plain-text address.
+All lead forms post directly to the Eye To Ad Lead Net server (clients.eyetoad.com) through assets/quote.js, with a hidden honeypot, a 3 second minimum time check, one retry, and success shown only when the server answers ok. lead-send.js is the safety-net router.
 
 `sitemap.xml`, `sitemap.html`, `robots.txt`, `llms.txt`, canonical metadata, JSON-LD, and the supplied Google Search Console verification token are included.
